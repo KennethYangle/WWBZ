@@ -1,145 +1,13 @@
 #include <iostream>
+#include <fstream>
 #include <opencv2/opencv.hpp>
-#include <python2.7/Python.h>
+#include "rapidjson/document.h"
 using namespace cv;
+using namespace std;
 
 #define expand_thre 3 * CV_PI / 180
 #define rho_thre 50
 #define INF 0x3f3f3f3f
-
-struct Square
-{
-    std::vector<Vec2f> edges;
-};
-
-bool cmp(Vec2f &a, Vec2f &b)
-{
-    return a[1] < b[1];
-}
-
-void findMaxMin(std::vector<Vec2f> &lines, Vec2f &max, Vec2f &min)
-{
-    max[0] = -INF, min[0] = INF;
-    for (size_t i = 0; i < lines.size()-1; i++)
-    {
-        if (lines[i][0] < lines[i+1][0])
-        {
-            if (lines[i+1][0] > max[0])
-                max = lines[i+1];
-            if (lines[i][0] < min[0])
-                min = lines[i];
-        }
-        else
-        {
-            if (lines[i][0] > max[0])
-                max = lines[i];
-            if (lines[i+1][0] < min[0])
-                min = lines[i+1];
-        }
-    }
-}
-
-inline float Mod(float a)
-{
-    if (a > CV_PI)
-        return a - CV_PI;
-    else if (a < 0)
-        return a + CV_PI;
-    else
-        return a;
-}
-
-void drawSquare(Mat &img, Square &s)
-{
-    for (size_t i = 0; i < 4; i++)
-    {
-        float rho = s.edges[i][0], theta = s.edges[i][1];
-        Point pt1, pt2;
-        double a = cos(theta), b = sin(theta);
-        double x0 = a * rho, y0 = b * rho;
-        pt1.x = cvRound(x0 + 500 * (-b));
-        pt1.y = cvRound(y0 + 500 * (a));
-        pt2.x = cvRound(x0 - 500 * (-b));
-        pt2.y = cvRound(y0 - 500 * (a));
-        line(img, pt1, pt2, Scalar(255, 0, 0), 8);
-    }
-}
-
-bool expand(std::vector<Vec2f> &lines, size_t index, float value, std::vector<Vec2f> &out)
-{
-    if (lines[index][1] < Mod(value - expand_thre) || lines[index][1] > Mod(value + expand_thre))
-        return false;
-    else
-    {
-        size_t i = index;
-        while (lines[i][1] >= Mod(value - expand_thre) && i > 0)
-        {
-            out.push_back(lines[i]);
-            i--;
-        }
-        while (lines[i][1] <= Mod(value + expand_thre) && i < lines.size())
-        {
-            out.push_back(lines[i]);
-            i++;
-        }
-    }
-    return true;
-}
-
-bool findVer(std::vector<Vec2f> &lines, size_t i, std::vector<Vec2f> &ver)
-{
-    int index = 0;
-    int low = 0;
-    int high = lines.size() - 1;
-    int value = Mod(lines[i][1] + CV_PI/2);
-    while (low <= high)
-    {
-        int mid = low + (high - low) / 2;
-        index = mid;
-        if (lines[mid][1] > value)
-            high = mid -1;
-        else
-            low = mid + 1;
-    }
-    return expand(lines, index, value, ver);
-}
-
-void isSquare(std::vector<Vec2f> &ori, std::vector<Vec2f> &ver, std::vector<Square> &squares)
-{
-    Vec2f max_ori = ori[0], min_ori = ori[0];
-    Vec2f max_ver = ver[0], min_ver = ver[0];
-    findMaxMin(ori, max_ori, min_ori);
-    findMaxMin(ver, max_ver, min_ver);
-    if (max_ori[0] - min_ori[0] > rho_thre && max_ver[0] - min_ver[0] > rho_thre)
-    {
-        Square s;
-        s.edges.push_back(max_ori);
-        s.edges.push_back(max_ver);
-        s.edges.push_back(min_ori);
-        s.edges.push_back(min_ver);
-        squares.push_back(s);
-    }
-}
-
-void findSquare(std::vector<Vec2f> &lines, std::vector<Square> &squares)
-{
-    std::sort(lines.begin(), lines.end(), cmp);
-    for (size_t i = 0; i < lines.size(); i++)
-    {
-        std::vector<Vec2f> ver_lines, ori_lines;
-        if (findVer(lines, i, ver_lines))
-        {
-            if (expand(lines, i, lines[i][1], ori_lines))
-            {
-                isSquare(ori_lines, ver_lines, squares);
-            }
-            else
-                continue;
-        }
-        else
-            continue;
-    }
-}
 
 //! [changing-contrast-brightness-gamma-correction]
 Mat lookUpTable(1, 256, CV_8U);
@@ -150,56 +18,76 @@ void createGammaTable(const double gamma_)
         p[i] = saturate_cast<uchar>(pow(i / 255.0, gamma_) * 255.0);
 }
 
-void setISO(int iso)
-{
-    Py_Initialize();
-    if ( !Py_IsInitialized() ) {  
-        printf("Python script initialize failed!\n");  
-    }
-    PyRun_SimpleString("import sys");
-    PyRun_SimpleString("sys.path.append('../src/')"); //放在cpp的同一路径下
-
-    PyObject *pName,*pModule,*pDict,*pFunc,*pArgs;
-    pName = PyString_FromString("iso");
-    pModule = PyImport_Import(pName);
-    if ( !pModule ) {
-        printf("Can't find iso.py");
-        getchar();
-    }
-    pDict = PyModule_GetDict(pModule);
-    pFunc = PyDict_GetItemString(pDict, "ISO");
-    if ( !pFunc || !PyCallable_Check(pFunc) ) {  
-        printf("can't find function [ISO]");
-    }
-    *pArgs;
-    pArgs = PyTuple_New(1);
-    PyTuple_SetItem(pArgs, 0, Py_BuildValue("i", iso));
-    PyObject_CallObject(pFunc, pArgs);
-    Py_Finalize();
-}
-
 
 int main(int argc, char **argv)
 {
-    setISO(50);
-
-    if (argc != 2)
+    // parse args
+    if (argc > 2)
     {
-        printf("Usage: %s VIDEO_PATH\n", argv[0]);
+        printf("Usage: %s CONFIG_FILE\n", argv[0]);
+        return -1;
+    }
+    string cfg_path = "./cfg/config.json";
+    if (argc == 2)
+    {
+        cfg_path = argv[1];
     }
 
+    // read config file and get video path
+    ifstream in(cfg_path);
+    ostringstream tmp;
+    tmp << in.rdbuf();
+    string json = tmp.str();
+    cout << "cfg:\n" << json << endl;
+
+    rapidjson::Document document;
+    document.Parse(json.c_str());
+    string video_path = document["test"]["video_path"].GetString(); // "./video/20160212_003550.avi"
+
+    // get video capture
     VideoCapture cap;
-    if (*(argv[1]) == '0')
+    if (video_path == "0")
+    {
         cap.open(0);
+        cout << "Using camera." << endl;
+    }
     else
-        cap.open(argv[1]);
-        printf("%s\n", argv[1]);
+    {
+        cap.open(video_path);
+        cout << "video path:\n" << video_path << endl;
+    }
     if (!cap.isOpened())
         return -1;
 
-    double frame_time = 1000.0/27;
-    Mat frame, hsv, th1, th2, th;
+    // get and set camera parameters
+    if (video_path == "0")
+    {
+        cap.set(CV_CAP_PROP_FRAME_WIDTH, document["camera"]["frame_width"].GetUint());      // 宽度
+        cap.set(CV_CAP_PROP_FRAME_HEIGHT, document["camera"]["frame_height"].GetUint());    // 高度
+        cap.set(CV_CAP_PROP_FPS, document["camera"]["frame_fps"].GetDouble());              // 帧率
+        cap.set(CV_CAP_PROP_BRIGHTNESS, document["camera"]["brightness"].GetDouble());      // 亮度
+        cap.set(CV_CAP_PROP_CONTRAST, document["camera"]["contrast"].GetDouble());          // 对比度
+        cap.set(CV_CAP_PROP_SATURATION, document["camera"]["saturation"].GetDouble());      // 饱和度
+        cap.set(CV_CAP_PROP_HUE, document["camera"]["hue"].GetDouble());                    // 色调
+        cap.set(CV_CAP_PROP_EXPOSURE, document["camera"]["exposure"].GetDouble());          // 曝光
+
+        cout << "FRAME_WIDTH: " << cap.get(CV_CAP_PROP_FRAME_WIDTH) << endl;
+        cout << "FRAME_HEIGHT: " << cap.get(CV_CAP_PROP_FRAME_HEIGHT) << endl;
+        cout << "FPS: " << cap.get(CV_CAP_PROP_FPS) << endl;
+        cout << "BRIGHTNESS: " << cap.get(CV_CAP_PROP_BRIGHTNESS) << endl;
+        cout << "CONTRAST: " << cap.get(CV_CAP_PROP_CONTRAST) << endl;
+        cout << "SATURATION: " << cap.get(CV_CAP_PROP_SATURATION) << endl;
+        cout << "HUE: " << cap.get(CV_CAP_PROP_HUE) << endl;
+        cout << "EXPOSURE: " << cap.get(CV_CAP_PROP_EXPOSURE) << endl;
+    }
+
+    // get video parameters
+    double frame_fps = document["video"]["frame_fps"].GetDouble();
+    double frame_time = 1000.0 / frame_fps;
+
+    // creat table before processing
     createGammaTable(2);
+    Mat frame, hsv, th1, th2, th;
 
     while (true)
     {
@@ -210,7 +98,6 @@ int main(int argc, char **argv)
             printf("Empty!\n");
             break;
         }
-        resize(frame, frame, Size(640, 480));
         cvtColor(frame, hsv, COLOR_BGR2HSV);
 
         // hsv segmentation
@@ -230,7 +117,7 @@ int main(int argc, char **argv)
         imshow("gamma_th", gamma_th);
 
 
-        std::vector<Vec3f> circles;
+        vector<Vec3f> circles;
         HoughCircles(th, circles, CV_HOUGH_GRADIENT, 4, 100, 100, 160, 0, 0);
         if (!circles.empty())
         {
@@ -247,17 +134,17 @@ int main(int argc, char **argv)
         //     line(frame, Point(lines[i][0], lines[i][1]), Point(lines[i][2], lines[i][3]), Scalar(255, 0, 0), 4);
         // }
 
-        std::vector<Vec2f> lines;
+        vector<Vec2f> lines;
         Mat hough_img(800, 180, CV_8UC1, Scalar(0));
         HoughLines(th, lines, 2, CV_PI/90, 200, 0, 0);
 
-        std::vector<Square> squares;
-        findSquare(lines, squares);
-        for (size_t i = 0; i < squares.size(); i++)
-        {
-            drawSquare(frame, squares[i]);
-        }
-        printf("Squares: %zu\n", squares.size());
+        // vector<Square> squares;
+        // findSquare(lines, squares);
+        // for (size_t i = 0; i < squares.size(); i++)
+        // {
+        //     drawSquare(frame, squares[i]);
+        // }
+        // printf("Squares: %zu\n", squares.size());
 
         for (size_t i = 0; i < lines.size(); i++)
         {
