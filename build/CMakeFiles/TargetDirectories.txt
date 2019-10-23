@@ -1,0 +1,3 @@
+/home/kenneth/Workspace/WWBZ/build/CMakeFiles/rebuild_cache.dir
+/home/kenneth/Workspace/WWBZ/build/CMakeFiles/edit_cache.dir
+/home/kenneth/Workspace/WWBZ/build/CMakeFiles/circle.dir

@@ -1,0 +1,796 @@
+50
+../video/20160212_003550.avi
+Squares: 0
+Processing Time: 157.822302 ms
+Squares: 0
+Processing Time: 7.841314 ms
+Squares: 0
+Processing Time: 10.266329 ms
+Squares: 0
+Processing Time: 7.428676 ms
+Squares: 0
+Processing Time: 21.992909 ms
+238.00, 130.00, 24.80
+Squares: 0
+Processing Time: 21.027224 ms
+Squares: 0
+Processing Time: 15.541517 ms
+Squares: 0
+Processing Time: 13.052368 ms
+Squares: 0
+Processing Time: 12.866804 ms
+Squares: 0
+Processing Time: 25.183897 ms
+Squares: 0
+Processing Time: 23.454426 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 20.927696 ms
+Squares: 0
+Processing Time: 16.369611 ms
+Squares: 0
+Processing Time: 18.582360 ms
+Squares: 0
+Processing Time: 17.761233 ms
+Squares: 0
+Processing Time: 16.744841 ms
+Squares: 0
+Processing Time: 16.455913 ms
+Squares: 0
+Processing Time: 16.593427 ms
+Squares: 0
+Processing Time: 17.073182 ms
+Squares: 0
+Processing Time: 17.017917 ms
+Squares: 0
+Processing Time: 17.390388 ms
+Squares: 0
+Processing Time: 16.737280 ms
+Squares: 0
+Processing Time: 13.240170 ms
+Squares: 0
+Processing Time: 13.097315 ms
+Squares: 0
+Processing Time: 12.692814 ms
+Squares: 0
+Processing Time: 15.494696 ms
+Squares: 0
+Processing Time: 15.740381 ms
+Squares: 0
+Processing Time: 15.551409 ms
+Squares: 0
+Processing Time: 15.842805 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 16.762413 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 16.673541 ms
+Squares: 0
+Processing Time: 15.605335 ms
+Squares: 0
+Processing Time: 10.707287 ms
+Squares: 0
+Processing Time: 7.664591 ms
+Squares: 0
+Processing Time: 8.692606 ms
+Squares: 0
+Processing Time: 12.892798 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 23.641159 ms
+Squares: 0
+Processing Time: 22.796413 ms
+Squares: 0
+Processing Time: 23.336659 ms
+Squares: 0
+Processing Time: 15.130578 ms
+Squares: 0
+Processing Time: 13.427843 ms
+Squares: 0
+Processing Time: 17.330122 ms
+Squares: 0
+Processing Time: 15.425939 ms
+Squares: 0
+Processing Time: 16.266041 ms
+Squares: 0
+Processing Time: 16.300050 ms
+Squares: 0
+Processing Time: 15.508946 ms
+Squares: 0
+Processing Time: 16.247219 ms
+Squares: 0
+Processing Time: 15.589638 ms
+Squares: 0
+Processing Time: 15.728156 ms
+Squares: 0
+Processing Time: 15.670604 ms
+Squares: 0
+Processing Time: 12.527703 ms
+Squares: 0
+Processing Time: 13.134453 ms
+Squares: 0
+Processing Time: 12.699134 ms
+Squares: 0
+Processing Time: 12.694765 ms
+Squares: 0
+Processing Time: 12.312633 ms
+Squares: 0
+Processing Time: 12.911853 ms
+Squares: 0
+Processing Time: 12.644697 ms
+Squares: 0
+Processing Time: 15.023976 ms
+Squares: 0
+Processing Time: 13.509367 ms
+238.00, 130.00, 24.80
+Squares: 0
+Processing Time: 7.685220 ms
+Squares: 0
+Processing Time: 23.223439 ms
+Squares: 0
+Processing Time: 20.818071 ms
+Squares: 0
+Processing Time: 22.100676 ms
+Squares: 0
+Processing Time: 22.290174 ms
+Squares: 0
+Processing Time: 22.075765 ms
+Squares: 0
+Processing Time: 20.489824 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 7.921359 ms
+Squares: 0
+Processing Time: 8.828921 ms
+Squares: 0
+Processing Time: 16.208411 ms
+Squares: 0
+Processing Time: 17.133344 ms
+Squares: 0
+Processing Time: 17.507165 ms
+Squares: 0
+Processing Time: 17.348802 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 23.988146 ms
+Squares: 0
+Processing Time: 25.036075 ms
+Squares: 0
+Processing Time: 22.861213 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 16.934761 ms
+Squares: 0
+Processing Time: 18.664650 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 11.381132 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 10.793871 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 11.150069 ms
+Squares: 0
+Processing Time: 10.339349 ms
+Squares: 0
+Processing Time: 23.100749 ms
+Squares: 0
+Processing Time: 21.573132 ms
+Squares: 0
+Processing Time: 8.457273 ms
+Squares: 0
+Processing Time: 8.495051 ms
+Squares: 0
+Processing Time: 11.370398 ms
+Squares: 0
+Processing Time: 23.714672 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 8.654173 ms
+Squares: 0
+Processing Time: 7.163320 ms
+Squares: 0
+Processing Time: 8.149079 ms
+Squares: 0
+Processing Time: 12.152740 ms
+Squares: 0
+Processing Time: 12.738220 ms
+Squares: 0
+Processing Time: 12.627130 ms
+Squares: 0
+Processing Time: 12.835395 ms
+Squares: 0
+Processing Time: 12.822189 ms
+Squares: 0
+Processing Time: 13.333562 ms
+Squares: 0
+Processing Time: 12.628631 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 22.213593 ms
+Squares: 0
+Processing Time: 15.460299 ms
+Squares: 0
+Processing Time: 13.070639 ms
+Squares: 0
+Processing Time: 12.745534 ms
+Squares: 0
+Processing Time: 13.274224 ms
+Squares: 0
+Processing Time: 13.287753 ms
+Squares: 0
+Processing Time: 13.184199 ms
+Squares: 0
+Processing Time: 13.447267 ms
+Squares: 0
+Processing Time: 13.090798 ms
+Squares: 0
+Processing Time: 23.982208 ms
+Squares: 0
+Processing Time: 24.018622 ms
+Squares: 0
+Processing Time: 16.531009 ms
+Squares: 0
+Processing Time: 16.583053 ms
+Squares: 0
+Processing Time: 15.834608 ms
+Squares: 0
+Processing Time: 11.029518 ms
+Squares: 0
+Processing Time: 12.515261 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 13.369315 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 13.444485 ms
+Squares: 0
+Processing Time: 12.607152 ms
+Squares: 0
+Processing Time: 12.889473 ms
+Squares: 0
+Processing Time: 22.697937 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 23.454327 ms
+Squares: 0
+Processing Time: 22.895506 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 17.175522 ms
+Squares: 0
+Processing Time: 7.650678 ms
+238.00, 130.00, 24.80
+Squares: 0
+Processing Time: 21.644262 ms
+238.00, 130.00, 24.80
+Squares: 0
+Processing Time: 13.779707 ms
+238.00, 130.00, 24.80
+Squares: 0
+Processing Time: 14.176541 ms
+Squares: 0
+Processing Time: 13.868830 ms
+Squares: 0
+Processing Time: 13.762683 ms
+Squares: 0
+Processing Time: 13.640499 ms
+Squares: 0
+Processing Time: 14.237085 ms
+Squares: 0
+Processing Time: 13.574184 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 13.161516 ms
+Squares: 0
+Processing Time: 13.610424 ms
+Squares: 0
+Processing Time: 13.187679 ms
+Squares: 0
+Processing Time: 13.116491 ms
+Squares: 0
+Processing Time: 13.968241 ms
+Squares: 0
+Processing Time: 10.997639 ms
+Squares: 0
+Processing Time: 18.057913 ms
+Squares: 0
+Processing Time: 18.458170 ms
+Squares: 0
+Processing Time: 17.840087 ms
+Squares: 0
+Processing Time: 15.768478 ms
+Squares: 0
+Processing Time: 10.019137 ms
+Squares: 0
+Processing Time: 10.632304 ms
+Squares: 0
+Processing Time: 14.235823 ms
+Squares: 0
+Processing Time: 11.916359 ms
+Squares: 0
+Processing Time: 12.644850 ms
+Squares: 0
+Processing Time: 23.614215 ms
+Squares: 0
+Processing Time: 23.723957 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 23.398242 ms
+Squares: 0
+Processing Time: 10.954688 ms
+Squares: 0
+Processing Time: 9.787396 ms
+Squares: 0
+Processing Time: 13.901989 ms
+Squares: 0
+Processing Time: 13.121932 ms
+Squares: 0
+Processing Time: 20.110714 ms
+Squares: 0
+Processing Time: 21.916277 ms
+Squares: 0
+Processing Time: 10.841907 ms
+Squares: 0
+Processing Time: 23.654556 ms
+238.00, 130.00, 24.80
+Squares: 0
+Processing Time: 21.074963 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 13.042025 ms
+Squares: 0
+Processing Time: 13.523188 ms
+Squares: 0
+Processing Time: 13.609450 ms
+Squares: 0
+Processing Time: 13.029350 ms
+Squares: 0
+Processing Time: 13.421770 ms
+Squares: 0
+Processing Time: 12.994536 ms
+Squares: 0
+Processing Time: 13.151103 ms
+Squares: 0
+Processing Time: 14.100200 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 13.656888 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 13.134488 ms
+Squares: 0
+Processing Time: 10.872432 ms
+Squares: 0
+Processing Time: 7.781663 ms
+Squares: 0
+Processing Time: 10.171357 ms
+Squares: 0
+Processing Time: 14.133539 ms
+Squares: 0
+Processing Time: 14.444250 ms
+Squares: 0
+Processing Time: 15.183580 ms
+Squares: 0
+Processing Time: 15.356138 ms
+Squares: 0
+Processing Time: 11.915771 ms
+Squares: 0
+Processing Time: 8.169997 ms
+Squares: 0
+Processing Time: 7.315924 ms
+Squares: 0
+Processing Time: 7.451366 ms
+Squares: 0
+Processing Time: 8.988838 ms
+Squares: 0
+Processing Time: 23.173885 ms
+238.00, 130.00, 25.20
+Squares: 0
+Processing Time: 20.779379 ms
+Squares: 0
+Processing Time: 16.691264 ms
+Squares: 0
+Processing Time: 16.518545 ms
+Squares: 0
+Processing Time: 16.514098 ms
+Squares: 0
+Processing Time: 17.650225 ms
+Squares: 0
+Processing Time: 17.016423 ms
+Squares: 0
+Processing Time: 16.683080 ms
+Squares: 0
+Processing Time: 17.070533 ms
+Squares: 0
+Processing Time: 15.115699 ms
+Squares: 0
+Processing Time: 13.339040 ms
+Squares: 0
+Processing Time: 23.497106 ms
+246.00, 134.00, 22.80
+Squares: 0
+Processing Time: 23.501861 ms
+Squares: 0
+Processing Time: 20.555101 ms
+250.00, 134.00, 22.80
+Squares: 0
+Processing Time: 10.788610 ms
+Squares: 0
+Processing Time: 7.706202 ms
+Squares: 0
+Processing Time: 7.691769 ms
+Squares: 0
+Processing Time: 10.014967 ms
+258.00, 138.00, 24.00
+Squares: 0
+Processing Time: 13.059119 ms
+Squares: 0
+Processing Time: 18.809302 ms
+Squares: 0
+Processing Time: 20.041926 ms
+Squares: 0
+Processing Time: 18.731559 ms
+Squares: 0
+Processing Time: 18.853283 ms
+Squares: 0
+Processing Time: 20.335463 ms
+Squares: 0
+Processing Time: 18.862067 ms
+Squares: 0
+Processing Time: 18.913980 ms
+Squares: 0
+Processing Time: 14.676891 ms
+Squares: 0
+Processing Time: 16.718872 ms
+Squares: 0
+Processing Time: 16.522967 ms
+Squares: 0
+Processing Time: 19.220712 ms
+Squares: 0
+Processing Time: 19.211612 ms
+Squares: 0
+Processing Time: 19.613263 ms
+Squares: 0
+Processing Time: 16.723060 ms
+Squares: 0
+Processing Time: 14.926430 ms
+Squares: 0
+Processing Time: 13.982999 ms
+Squares: 0
+Processing Time: 13.710111 ms
+Squares: 0
+Processing Time: 16.166498 ms
+Squares: 0
+Processing Time: 16.263914 ms
+Squares: 0
+Processing Time: 16.509808 ms
+282.00, 150.00, 23.20
+Squares: 0
+Processing Time: 16.506250 ms
+286.00, 150.00, 24.00
+Squares: 0
+Processing Time: 16.548431 ms
+Squares: 0
+Processing Time: 15.982211 ms
+Squares: 0
+Processing Time: 16.202327 ms
+Squares: 0
+Processing Time: 16.754589 ms
+Squares: 0
+Processing Time: 16.082952 ms
+282.00, 142.00, 22.40
+Squares: 0
+Processing Time: 16.629185 ms
+Squares: 0
+Processing Time: 24.073456 ms
+282.00, 142.00, 23.20
+Squares: 0
+Processing Time: 14.518930 ms
+Squares: 0
+Processing Time: 8.897758 ms
+Squares: 0
+Processing Time: 8.646279 ms
+Squares: 0
+Processing Time: 10.377043 ms
+Squares: 0
+Processing Time: 12.876200 ms
+Squares: 0
+Processing Time: 16.301778 ms
+282.00, 162.00, 24.80
+Squares: 0
+Processing Time: 16.084642 ms
+Squares: 0
+Processing Time: 16.153625 ms
+Squares: 0
+Processing Time: 17.311079 ms
+Squares: 0
+Processing Time: 16.561624 ms
+Squares: 0
+Processing Time: 12.492001 ms
+Squares: 0
+Processing Time: 12.765142 ms
+282.00, 178.00, 25.60
+Squares: 0
+Processing Time: 17.144510 ms
+282.00, 178.00, 24.40
+Squares: 0
+Processing Time: 17.817984 ms
+Squares: 0
+Processing Time: 18.759741 ms
+Squares: 0
+Processing Time: 18.276543 ms
+282.00, 178.00, 24.80
+Squares: 0
+Processing Time: 18.392029 ms
+282.00, 182.00, 23.20
+Squares: 0
+Processing Time: 18.193751 ms
+282.00, 182.00, 23.60
+Squares: 0
+Processing Time: 18.188807 ms
+Squares: 0
+Processing Time: 10.483956 ms
+282.00, 182.00, 24.40
+Squares: 0
+Processing Time: 7.119944 ms
+Squares: 0
+Processing Time: 23.475060 ms
+Squares: 0
+Processing Time: 18.515072 ms
+286.00, 186.00, 26.00
+Squares: 0
+Processing Time: 9.761899 ms
+286.00, 190.00, 25.60
+Squares: 0
+Processing Time: 9.382555 ms
+Squares: 0
+Processing Time: 12.390281 ms
+Squares: 0
+Processing Time: 12.278617 ms
+Squares: 0
+Processing Time: 12.002598 ms
+290.00, 198.00, 26.40
+Squares: 0
+Processing Time: 12.718899 ms
+Squares: 0
+Processing Time: 12.286464 ms
+Squares: 0
+Processing Time: 12.842494 ms
+Squares: 0
+Processing Time: 14.212610 ms
+Squares: 0
+Processing Time: 14.326023 ms
+294.00, 210.00, 24.00
+Squares: 0
+Processing Time: 14.568022 ms
+294.00, 214.00, 24.80
+Squares: 0
+Processing Time: 14.843378 ms
+294.00, 214.00, 25.60
+Squares: 0
+Processing Time: 14.393712 ms
+Squares: 0
+Processing Time: 14.724249 ms
+Squares: 0
+Processing Time: 14.914556 ms
+Squares: 0
+Processing Time: 14.618600 ms
+Squares: 0
+Processing Time: 19.058173 ms
+Squares: 0
+Processing Time: 18.953726 ms
+Squares: 0
+Processing Time: 18.132071 ms
+Squares: 0
+Processing Time: 18.477450 ms
+Squares: 0
+Processing Time: 18.771454 ms
+Squares: 0
+Processing Time: 18.083249 ms
+Squares: 0
+Processing Time: 14.650979 ms
+Squares: 0
+Processing Time: 11.037228 ms
+Squares: 0
+Processing Time: 11.314277 ms
+Squares: 0
+Processing Time: 11.087177 ms
+Squares: 0
+Processing Time: 14.766814 ms
+Squares: 0
+Processing Time: 15.715475 ms
+Squares: 0
+Processing Time: 15.247496 ms
+Squares: 0
+Processing Time: 16.388209 ms
+Squares: 0
+Processing Time: 15.031028 ms
+Squares: 0
+Processing Time: 16.905346 ms
+Squares: 0
+Processing Time: 16.140735 ms
+Squares: 0
+Processing Time: 14.944760 ms
+278.00, 382.00, 26.80
+Squares: 0
+Processing Time: 15.043001 ms
+Squares: 0
+Processing Time: 9.146073 ms
+282.00, 370.00, 27.60
+Squares: 0
+Processing Time: 9.598349 ms
+282.00, 346.00, 27.20
+Squares: 0
+Processing Time: 25.142052 ms
+282.00, 330.00, 28.80
+Squares: 0
+Processing Time: 24.776148 ms
+282.00, 318.00, 27.20
+Squares: 0
+Processing Time: 14.442992 ms
+Squares: 0
+Processing Time: 7.659583 ms
+Squares: 0
+Processing Time: 7.996426 ms
+Squares: 0
+Processing Time: 7.556492 ms
+282.00, 290.00, 26.80
+Squares: 0
+Processing Time: 13.992066 ms
+Squares: 0
+Processing Time: 14.436102 ms
+282.00, 266.00, 24.40
+Squares: 0
+Processing Time: 14.295064 ms
+Squares: 0
+Processing Time: 14.720662 ms
+Squares: 0
+Processing Time: 14.501662 ms
+282.00, 246.00, 26.00
+Squares: 0
+Processing Time: 14.564549 ms
+282.00, 238.00, 24.80
+Squares: 0
+Processing Time: 14.517098 ms
+282.00, 234.00, 25.20
+Squares: 0
+Processing Time: 14.399913 ms
+282.00, 230.00, 24.80
+Squares: 0
+Processing Time: 14.900341 ms
+282.00, 226.00, 24.80
+Squares: 0
+Processing Time: 14.409316 ms
+282.00, 222.00, 25.20
+Squares: 0
+Processing Time: 14.536715 ms
+282.00, 218.00, 24.40
+Squares: 0
+Processing Time: 25.853724 ms
+278.00, 214.00, 24.80
+Squares: 0
+Processing Time: 23.942114 ms
+Squares: 0
+Processing Time: 23.626174 ms
+282.00, 190.00, 24.40
+Squares: 0
+Processing Time: 13.868970 ms
+Squares: 0
+Processing Time: 15.973648 ms
+282.00, 182.00, 24.80
+Squares: 0
+Processing Time: 16.370284 ms
+Squares: 0
+Processing Time: 15.537281 ms
+Squares: 0
+Processing Time: 16.304638 ms
+Squares: 0
+Processing Time: 17.073130 ms
+294.00, 174.00, 26.80
+Squares: 0
+Processing Time: 24.480127 ms
+298.00, 174.00, 28.40
+Squares: 0
+Processing Time: 22.938031 ms
+298.00, 174.00, 25.60
+Squares: 0
+Processing Time: 10.939753 ms
+298.00, 178.00, 25.20
+Squares: 0
+Processing Time: 14.949824 ms
+Squares: 0
+Processing Time: 14.616909 ms
+Squares: 0
+Processing Time: 19.496615 ms
+298.00, 186.00, 25.20
+Squares: 0
+Processing Time: 17.855297 ms
+298.00, 194.00, 24.40
+Squares: 0
+Processing Time: 11.803741 ms
+Squares: 0
+Processing Time: 13.326133 ms
+298.00, 198.00, 24.40
+Squares: 0
+Processing Time: 13.294543 ms
+302.00, 206.00, 26.40
+Squares: 0
+Processing Time: 24.610467 ms
+Squares: 0
+Processing Time: 10.035482 ms
+Squares: 0
+Processing Time: 7.341014 ms
+Squares: 0
+Processing Time: 25.324116 ms
+Squares: 0
+Processing Time: 23.416070 ms
+314.00, 218.00, 26.40
+Squares: 0
+Processing Time: 22.262771 ms
+314.00, 218.00, 26.40
+Squares: 0
+Processing Time: 21.467133 ms
+Squares: 0
+Processing Time: 21.041582 ms
+Squares: 0
+Processing Time: 10.980152 ms
+Squares: 0
+Processing Time: 11.547321 ms
+Squares: 0
+Processing Time: 10.911162 ms
+Squares: 0
+Processing Time: 12.729260 ms
+318.00, 206.00, 24.00
+Squares: 0
+Processing Time: 20.802661 ms
+Squares: 0
+Processing Time: 21.876664 ms
+Squares: 0
+Processing Time: 21.672723 ms
+Squares: 0
+Processing Time: 21.858628 ms
+Squares: 0
+Processing Time: 20.262546 ms
+314.00, 214.00, 25.20
+Squares: 0
+Processing Time: 13.793385 ms
+Squares: 0
+Processing Time: 7.726319 ms
+Squares: 0
+Processing Time: 9.605714 ms
+310.00, 218.00, 25.60
+Squares: 0
+Processing Time: 11.790316 ms
+Squares: 0
+Processing Time: 12.005860 ms
+306.00, 214.00, 25.60
+Squares: 0
+Processing Time: 16.946433 ms
+302.00, 214.00, 23.60
+Squares: 0
+Processing Time: 16.724413 ms
+Squares: 0
+Processing Time: 17.515866 ms
+Squares: 0
+Processing Time: 17.547864 ms
+Squares: 0
+Processing Time: 16.957677 ms
+Squares: 0
+Processing Time: 17.093753 ms
+Squares: 0
+Processing Time: 18.488699 ms
+Squares: 0
+Processing Time: 17.181812 ms
+Squares: 0
+Processing Time: 18.979571 ms
+Squares: 0
+Processing Time: 16.502849 ms
+Squares: 0
+Processing Time: 15.836759 ms
+Squares: 0
+Processing Time: 15.347065 ms
+Squares: 0
+Processing Time: 1
