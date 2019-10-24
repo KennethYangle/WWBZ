@@ -9,7 +9,7 @@ using namespace std;
 #define rho_thre 50
 #define INF 0x3f3f3f3f
 
-//! [changing-contrast-brightness-gamma-correction]
+// changing contrast brightness gamma correction
 Mat lookUpTable(1, 256, CV_8U);
 void createGammaTable(const double gamma_)
 {
@@ -87,10 +87,45 @@ int main(int argc, char **argv)
     cout << "frame time: " << frame_time << endl;
 
     // creat table before processing
-    createGammaTable(2);
+    createGammaTable(document["image_processing"]["gamma"].GetDouble());
+    cout << "creat gamma table success" << endl;
+
+    // prepare variables and parameters
+    Mat frame, hsv, th1, th2, th;
+    Mat gamma_img, gamma_hsv, gamma_th, gamma_th1, gamma_th2;
+
+    const rapidjson::Value& rl1 = document["image_processing"]["red_low_1"];
+    Scalar red_low_range1 = Scalar(rl1[0].GetDouble(), rl1[1].GetDouble(), rl1[2].GetDouble());
+    const rapidjson::Value& rh1 = document["image_processing"]["red_high_1"];
+    Scalar red_high_range1 = Scalar(rh1[0].GetDouble(), rh1[1].GetDouble(), rh1[2].GetDouble());
+    const rapidjson::Value& rl2 = document["image_processing"]["red_low_2"];
+    Scalar red_low_range2 = Scalar(rl2[0].GetDouble(), rl2[1].GetDouble(), rl2[2].GetDouble());
+    const rapidjson::Value& rh2 = document["image_processing"]["red_high_2"];
+    Scalar red_high_range2 = Scalar(rh2[0].GetDouble(), rh2[1].GetDouble(), rh2[2].GetDouble());
+
+    const rapidjson::Value& gl = document["image_processing"]["green_low"];
+    Scalar green_low = Scalar(gl[0].GetDouble(), gl[1].GetDouble(), gl[2].GetDouble());
+    const rapidjson::Value& gh = document["image_processing"]["green_high"];
+    Scalar green_high = Scalar(gh[0].GetDouble(), gh[1].GetDouble(), gh[2].GetDouble());
+
+    const rapidjson::Value& bl = document["image_processing"]["blue_low"];
+    Scalar blue_low = Scalar(bl[0].GetDouble(), bl[1].GetDouble(), bl[2].GetDouble());
+    const rapidjson::Value& bh = document["image_processing"]["blue_high"];
+    Scalar blue_high = Scalar(bh[0].GetDouble(), bh[1].GetDouble(), bh[2].GetDouble());
+
+    const rapidjson::Value& cp1 = document["image_processing"]["circle1_param"];
+    vector<double> circle1_params = {cp1["dp"].GetDouble(), cp1["minDist"].GetDouble(), cp1["param1"].GetDouble(), 
+    cp1["param2"].GetDouble(), cp1["minRadius"].GetDouble(), cp1["maxRadius"].GetDouble()};
+    const rapidjson::Value& cp2 = document["image_processing"]["circle2_param"];
+    vector<double> circle2_params = {cp2["dp"].GetDouble(), cp2["minDist"].GetDouble(), cp2["param1"].GetDouble(), 
+    cp2["param2"].GetDouble(), cp2["minRadius"].GetDouble(), cp2["maxRadius"].GetDouble()};
+    const rapidjson::Value& cp3 = document["image_processing"]["circle3_param"];
+    vector<double> circle3_params = {cp3["dp"].GetDouble(), cp3["minDist"].GetDouble(), cp3["param1"].GetDouble(), 
+    cp3["param2"].GetDouble(), cp3["minRadius"].GetDouble(), cp3["maxRadius"].GetDouble()};
+    
+    cout << "paremeters load completed" << endl;
 
     // image processing
-    Mat frame, hsv, th1, th2, th;
     while (true)
     {
         double tic = static_cast<double>(getTickCount());
@@ -100,71 +135,48 @@ int main(int argc, char **argv)
             printf("Empty!\n");
             return -1;
         }
-        cvtColor(frame, hsv, COLOR_BGR2HSV);
 
-        // hsv segmentation
-        inRange(hsv, Scalar(150,0,230), Scalar(180,150,256), th1);
-        inRange(hsv, Scalar(0,0,230), Scalar(30,150,256), th2);
-        th = th1 + th2;
-        imshow("th", th);
+        // // hsv segmentation
+        // cvtColor(frame, hsv, COLOR_BGR2HSV);
+        // inRange(hsv, Scalar(150,0,230), Scalar(180,150,256), th1);
+        // inRange(hsv, Scalar(0,0,230), Scalar(30,150,256), th2);
+        // th = th1 + th2;
+        // imshow("th", th);
 
         // gamma correction
-        Mat gamma_img, gamma_hsv, gamma_th, gamma_th1, gamma_th2;
         LUT(frame, lookUpTable, gamma_img);
-        imshow("gamma", gamma_img);
         cvtColor(gamma_img, gamma_hsv, COLOR_BGR2HSV);
-        inRange(gamma_hsv, Scalar(170,150,230), Scalar(180,255,256), gamma_th1);
-        inRange(gamma_hsv, Scalar(0,150,230), Scalar(20,255,256), gamma_th2);
+        inRange(gamma_hsv, red_low_range1, red_high_range1, gamma_th1);
+        inRange(gamma_hsv, red_low_range2, red_high_range2, gamma_th2);
         gamma_th = gamma_th1 + gamma_th2;
         imshow("gamma_th", gamma_th);
 
-
+        // circle detect
         vector<Vec3f> circles;
-        HoughCircles(th, circles, CV_HOUGH_GRADIENT, 4, 100, 100, 160, 0, 0);
+        HoughCircles(gamma_th, circles, CV_HOUGH_GRADIENT, circle1_params[0], circle1_params[1], circle1_params[2], circle1_params[3], circle1_params[4], circle1_params[5]);
         if (!circles.empty())
         {
             Vec3f obj = circles[0];
             printf("%.2f, %.2f, %.2f\n", obj[0], obj[1], obj[2]);
-            circle(frame, Point(obj[0], obj[1]), obj[2], Scalar(0,255,0), 4);
+            circle(gamma_img, Point(obj[0], obj[1]), obj[2], Scalar(0,255,0), 4);
+            circle(gamma_img, Point(obj[0], obj[1]), 1, Scalar(0,255,0), 4);
         }
-
-        // std::vector<Vec4i> lines;
-        // cv::HoughLinesP(th, lines, 2, 2*CV_PI/180, 300, 0, 400);
-        // printf("lines: %zu\n", lines.size());
-        // for (size_t i=0; i<lines.size(); i++)
-        // {
-        //     line(frame, Point(lines[i][0], lines[i][1]), Point(lines[i][2], lines[i][3]), Scalar(255, 0, 0), 4);
-        // }
-
-        vector<Vec2f> lines;
-        Mat hough_img(800, 180, CV_8UC1, Scalar(0));
-        HoughLines(th, lines, 2, CV_PI/90, 200, 0, 0);
-
-        // vector<Square> squares;
-        // findSquare(lines, squares);
-        // for (size_t i = 0; i < squares.size(); i++)
-        // {
-        //     drawSquare(frame, squares[i]);
-        // }
-        // printf("Squares: %zu\n", squares.size());
-
-        for (size_t i = 0; i < lines.size(); i++)
+        // If the circle is not found, take the centroid of the color
+        else
         {
-            float rho = lines[i][0], theta = lines[i][1];
-            Point pt1, pt2;
-            double a = cos(theta), b = sin(theta);
-            double x0 = a * rho, y0 = b * rho;
-            pt1.x = cvRound(x0 + 500 * (-b));
-            pt1.y = cvRound(y0 + 500 * (a));
-            pt2.x = cvRound(x0 - 500 * (-b));
-            pt2.y = cvRound(y0 - 500 * (a));
-            // line(frame, pt1, pt2, Scalar(255, 0, 0), 8);
-            circle(hough_img, Point(theta * 180 / CV_PI, rho), 1, Scalar(255), 4);
+            Moments m = moments(gamma_th, true);
+            if (m.m00 != 0)
+            {
+                double centroid_x = m.m10 / m.m00;
+                double centroid_y = m.m01 / m.m00;
+                printf("%.2f, %.2f\n", centroid_x, centroid_y);
+                circle(gamma_img, Point(centroid_x, centroid_y), 1, Scalar(0,255,0), 4);
+            }
         }
 
-        cv::imshow("video", frame);
-        cv::imshow("hough_img", hough_img);
+        imshow("video", gamma_img);
 
+        // keep frame rate
         double toc = static_cast<double>(getTickCount());
         double processing_time = (toc - tic) / getTickFrequency() * 1000;
         printf("Processing Time: %lf ms\n", processing_time);
@@ -176,7 +188,6 @@ int main(int argc, char **argv)
         {
             waitKey(1);
         }
-        
     }
 
     // finish

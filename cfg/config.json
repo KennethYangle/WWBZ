@@ -1,6 +1,6 @@
 {
     "test": {
-        "video_path": "0"
+        "video_path": "./video/20160212_003550.avi"
     },
     "camera": {
         "frame_width": 640,
@@ -16,15 +16,39 @@
         "frame_fps": 27.0
     },
     "image_processing": {
-        "gamma": 2,
+        "gamma": 2.0,
         "red_low_1": [170, 150, 230],
-        "red_high_1": [180, 255, 256],
+        "red_high_1": [180, 256, 256],
         "red_low_2": [0, 150, 230],
-        "red_high_2": [20, 255, 256],
-        "green_low": [],
-        "green_high": [],
-        "blue_low": [],
-        "blue_high": []
+        "red_high_2": [20, 256, 256],
+        "green_low": [35, 150, 230],
+        "green_high": [77, 256, 256],
+        "blue_low": [100, 150, 230],
+        "blue_high": [124, 256, 256],
+        "circle1_param": {
+            "dp": 4.0,
+            "minDist": 100,
+            "param1": 100,
+            "param2": 160,
+            "minRadius": 0,
+            "maxRadius": 0
+        },
+        "circle2_param": {
+            "dp": 4.0,
+            "minDist": 100,
+            "param1": 100,
+            "param2": 160,
+            "minRadius": 0,
+            "maxRadius": 0
+        },
+        "circle3_param": {
+            "dp": 4.0,
+            "minDist": 100,
+            "param1": 100,
+            "param2": 160,
+            "minRadius": 0,
+            "maxRadius": 0
+        }
     },
     "control_parameters": {
         "k_p": 10,
