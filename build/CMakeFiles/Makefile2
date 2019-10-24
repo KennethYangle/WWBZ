@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /home/kenneth/Workspace/WWBZ
 CMAKE_BINARY_DIR = /home/kenneth/Workspace/WWBZ/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/CShareMemory.dir
+
+# All Build rule for target.
+CMakeFiles/CShareMemory.dir/all:
+	$(MAKE) -f CMakeFiles/CShareMemory.dir/build.make CMakeFiles/CShareMemory.dir/depend
+	$(MAKE) -f CMakeFiles/CShareMemory.dir/build.make CMakeFiles/CShareMemory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kenneth/Workspace/WWBZ/build/CMakeFiles --progress-num=1,2 "Built target CShareMemory"
+.PHONY : CMakeFiles/CShareMemory.dir/all
+
+# Include target in all.
+all: CMakeFiles/CShareMemory.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CShareMemory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenneth/Workspace/WWBZ/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CShareMemory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenneth/Workspace/WWBZ/build/CMakeFiles 0
+.PHONY : CMakeFiles/CShareMemory.dir/rule
+
+# Convenience name for target.
+CShareMemory: CMakeFiles/CShareMemory.dir/rule
+
+.PHONY : CShareMemory
+
+# clean rule for target.
+CMakeFiles/CShareMemory.dir/clean:
+	$(MAKE) -f CMakeFiles/CShareMemory.dir/build.make CMakeFiles/CShareMemory.dir/clean
+.PHONY : CMakeFiles/CShareMemory.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CShareMemory.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/circle.dir
 
 # All Build rule for target.
-CMakeFiles/circle.dir/all:
+CMakeFiles/circle.dir/all: CMakeFiles/CShareMemory.dir/all
 	$(MAKE) -f CMakeFiles/circle.dir/build.make CMakeFiles/circle.dir/depend
 	$(MAKE) -f CMakeFiles/circle.dir/build.make CMakeFiles/circle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kenneth/Workspace/WWBZ/build/CMakeFiles --progress-num=1,2 "Built target circle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kenneth/Workspace/WWBZ/build/CMakeFiles --progress-num=3,4 "Built target circle"
 .PHONY : CMakeFiles/circle.dir/all
 
 # Include target in all.
@@ -76,7 +113,7 @@ all: CMakeFiles/circle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/circle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenneth/Workspace/WWBZ/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenneth/Workspace/WWBZ/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/circle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenneth/Workspace/WWBZ/build/CMakeFiles 0
 .PHONY : CMakeFiles/circle.dir/rule
@@ -93,6 +130,43 @@ CMakeFiles/circle.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/circle.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main_2.dir
+
+# All Build rule for target.
+CMakeFiles/main_2.dir/all: CMakeFiles/CShareMemory.dir/all
+	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/depend
+	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kenneth/Workspace/WWBZ/build/CMakeFiles --progress-num=5,6 "Built target main_2"
+.PHONY : CMakeFiles/main_2.dir/all
+
+# Include target in all.
+all: CMakeFiles/main_2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenneth/Workspace/WWBZ/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenneth/Workspace/WWBZ/build/CMakeFiles 0
+.PHONY : CMakeFiles/main_2.dir/rule
+
+# Convenience name for target.
+main_2: CMakeFiles/main_2.dir/rule
+
+.PHONY : main_2
+
+# clean rule for target.
+CMakeFiles/main_2.dir/clean:
+	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/clean
+.PHONY : CMakeFiles/main_2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/main_2.dir/clean
 
 .PHONY : clean
 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/share_memory.h
+sys/mman.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+stdio.h
+-
+fcntl.h
+-
+unistd.h
+-
+semaphore.h
+-
+iostream
+-
+string.h
+-
+
+/home/kenneth/Workspace/WWBZ/src/main_2.cpp
+share_memory.h
+/home/kenneth/Workspace/WWBZ/src/share_memory.h
+

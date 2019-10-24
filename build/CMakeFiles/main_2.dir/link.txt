@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -O3 -O3 -DNDEBUG   CMakeFiles/main_2.dir/src/main_2.cpp.o  -o main_2 -rdynamic libCShareMemory.so -Wl,-rpath,/home/kenneth/Workspace/WWBZ/build 

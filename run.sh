@@ -1,2 +1,2 @@
 #! /bin/bash
-./build/circle
+sudo ./build/circle

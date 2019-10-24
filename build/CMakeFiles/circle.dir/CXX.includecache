@@ -184,6 +184,30 @@ rapidjson.h
 encodings.h
 .././include/rapidjson/encodings.h
 
+.././include/share_memory.h
+sys/mman.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+stdio.h
+-
+fcntl.h
+-
+unistd.h
+-
+semaphore.h
+-
+iostream
+-
+string.h
+-
+
 /home/kenneth/Workspace/WWBZ/src/circle_in_real.cpp
 iostream
 -
@@ -193,6 +217,8 @@ opencv2/opencv.hpp
 -
 rapidjson/document.h
 /home/kenneth/Workspace/WWBZ/src/rapidjson/document.h
+share_memory.h
+/home/kenneth/Workspace/WWBZ/src/share_memory.h
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv/cxcore.h
 opencv2/core/core_c.h

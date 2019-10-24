@@ -48,5 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/CShareMemory.dir/DependInfo.cmake"
   "CMakeFiles/circle.dir/DependInfo.cmake"
+  "CMakeFiles/main_2.dir/DependInfo.cmake"
   )

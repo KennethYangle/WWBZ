@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/kenneth/Workspace/WWBZ/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CShareMemory
+
+# Build rule for target.
+CShareMemory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CShareMemory
+.PHONY : CShareMemory
+
+# fast build rule for target.
+CShareMemory/fast:
+	$(MAKE) -f CMakeFiles/CShareMemory.dir/build.make CMakeFiles/CShareMemory.dir/build
+.PHONY : CShareMemory/fast
+
+#=============================================================================
 # Target rules for targets named circle
 
 # Build rule for target.
@@ -122,6 +135,19 @@ circle: cmake_check_build_system
 circle/fast:
 	$(MAKE) -f CMakeFiles/circle.dir/build.make CMakeFiles/circle.dir/build
 .PHONY : circle/fast
+
+#=============================================================================
+# Target rules for targets named main_2
+
+# Build rule for target.
+main_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main_2
+.PHONY : main_2
+
+# fast build rule for target.
+main_2/fast:
+	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/build
+.PHONY : main_2/fast
 
 src/circle_in_real.o: src/circle_in_real.cpp.o
 
@@ -150,18 +176,80 @@ src/circle_in_real.cpp.s:
 	$(MAKE) -f CMakeFiles/circle.dir/build.make CMakeFiles/circle.dir/src/circle_in_real.cpp.s
 .PHONY : src/circle_in_real.cpp.s
 
+src/main_2.o: src/main_2.cpp.o
+
+.PHONY : src/main_2.o
+
+# target to build an object file
+src/main_2.cpp.o:
+	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/src/main_2.cpp.o
+.PHONY : src/main_2.cpp.o
+
+src/main_2.i: src/main_2.cpp.i
+
+.PHONY : src/main_2.i
+
+# target to preprocess a source file
+src/main_2.cpp.i:
+	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/src/main_2.cpp.i
+.PHONY : src/main_2.cpp.i
+
+src/main_2.s: src/main_2.cpp.s
+
+.PHONY : src/main_2.s
+
+# target to generate assembly for a file
+src/main_2.cpp.s:
+	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/src/main_2.cpp.s
+.PHONY : src/main_2.cpp.s
+
+src/share_memory.o: src/share_memory.cpp.o
+
+.PHONY : src/share_memory.o
+
+# target to build an object file
+src/share_memory.cpp.o:
+	$(MAKE) -f CMakeFiles/CShareMemory.dir/build.make CMakeFiles/CShareMemory.dir/src/share_memory.cpp.o
+.PHONY : src/share_memory.cpp.o
+
+src/share_memory.i: src/share_memory.cpp.i
+
+.PHONY : src/share_memory.i
+
+# target to preprocess a source file
+src/share_memory.cpp.i:
+	$(MAKE) -f CMakeFiles/CShareMemory.dir/build.make CMakeFiles/CShareMemory.dir/src/share_memory.cpp.i
+.PHONY : src/share_memory.cpp.i
+
+src/share_memory.s: src/share_memory.cpp.s
+
+.PHONY : src/share_memory.s
+
+# target to generate assembly for a file
+src/share_memory.cpp.s:
+	$(MAKE) -f CMakeFiles/CShareMemory.dir/build.make CMakeFiles/CShareMemory.dir/src/share_memory.cpp.s
+.PHONY : src/share_memory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... CShareMemory"
+	@echo "... rebuild_cache"
 	@echo "... circle"
+	@echo "... main_2"
 	@echo "... src/circle_in_real.o"
 	@echo "... src/circle_in_real.i"
 	@echo "... src/circle_in_real.s"
+	@echo "... src/main_2.o"
+	@echo "... src/main_2.i"
+	@echo "... src/main_2.s"
+	@echo "... src/share_memory.o"
+	@echo "... src/share_memory.i"
+	@echo "... src/share_memory.s"
 .PHONY : help
 
 

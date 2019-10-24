@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kenneth/Workspace/WWBZ/src/circle_in_real.cpp" "/home/kenneth/Workspace/WWBZ/build/CMakeFiles/circle.dir/src/circle_in_real.cpp.o"
+  "/home/kenneth/Workspace/WWBZ/src/main_2.cpp" "/home/kenneth/Workspace/WWBZ/build/CMakeFiles/main_2.dir/src/main_2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -2,6 +2,8 @@
 #include <fstream>
 #include <opencv2/opencv.hpp>
 #include "rapidjson/document.h"
+#include "share_memory.h"
+
 using namespace cv;
 using namespace std;
 
@@ -125,6 +127,11 @@ int main(int argc, char **argv)
     
     cout << "paremeters load completed" << endl;
 
+    // creat shared memory
+    double buffer[4] = {0};
+    CShareMemory csm("obj", 1024);
+    u32 length = sizeof(buffer);
+    
     // image processing
     while (true)
     {
@@ -160,6 +167,10 @@ int main(int argc, char **argv)
             printf("%.2f, %.2f, %.2f\n", obj[0], obj[1], obj[2]);
             circle(gamma_img, Point(obj[0], obj[1]), obj[2], Scalar(0,255,0), 4);
             circle(gamma_img, Point(obj[0], obj[1]), 1, Scalar(0,255,0), 4);
+            // write shared memory
+            buffer[0] = obj[0]; buffer[1] = obj[1];
+            buffer[2] = obj[2]; buffer[3] = 1;
+            csm.PutToShareMem(buffer, length);
         }
         // If the circle is not found, take the centroid of the color
         else
@@ -171,6 +182,17 @@ int main(int argc, char **argv)
                 double centroid_y = m.m01 / m.m00;
                 printf("%.2f, %.2f\n", centroid_x, centroid_y);
                 circle(gamma_img, Point(centroid_x, centroid_y), 1, Scalar(0,255,0), 4);
+                // write shared memory
+                buffer[0] = centroid_x; buffer[1] = centroid_y;
+                buffer[2] = 0; buffer[3] = -1;
+                csm.PutToShareMem(buffer, length);
+            }
+            // crossing completed
+            else
+            {
+                buffer[0] = -4; buffer[1] = -4;
+                buffer[2] = -4; buffer[3] = -4;
+                csm.PutToShareMem(buffer, length);
             }
         }
 
