@@ -24,7 +24,7 @@ int main(int argc, char **argv)
     // parse args
     if (argc > 2)
     {
-        printf("Usage: %s CONFIG_FILE\n", argv[0]);
+        printf("Usage: %s [CONFIG_FILE]\n", argv[0]);
         return -1;
     }
     string cfg_path = "./cfg/config.json";
@@ -84,11 +84,13 @@ int main(int argc, char **argv)
     // get video parameters
     double frame_fps = document["video"]["frame_fps"].GetDouble();
     double frame_time = 1000.0 / frame_fps;
+    cout << "frame time: " << frame_time << endl;
 
     // creat table before processing
     createGammaTable(2);
-    Mat frame, hsv, th1, th2, th;
 
+    // image processing
+    Mat frame, hsv, th1, th2, th;
     while (true)
     {
         double tic = static_cast<double>(getTickCount());
@@ -96,7 +98,7 @@ int main(int argc, char **argv)
         if (frame.empty())
         {
             printf("Empty!\n");
-            break;
+            return -1;
         }
         cvtColor(frame, hsv, COLOR_BGR2HSV);
 
@@ -176,6 +178,8 @@ int main(int argc, char **argv)
         }
         
     }
+
+    // finish
     cap.release();
     return 0;
 }
