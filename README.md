@@ -10,6 +10,8 @@
 
     ./build/circle CONFIG_FILE_PATH
 
+要下载`./video`目录下的视频，需要git lsf支持，安装参考[git-lfs](https://git-lfs.github.com/)
+
 ## 配置文件
 配置文件位于`./cfg`目录下，运行程序不指定配置文件时默认使用`./cfg/config.json`
 初始配置文件为
