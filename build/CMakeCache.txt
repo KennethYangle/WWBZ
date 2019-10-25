@@ -168,6 +168,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Dependencies for target
 CShareMemory_LIB_DEPENDS:STATIC=
 
+//The directory containing a CMake configuration file for MAVSDK.
+MAVSDK_DIR:PATH=/usr/local/lib/cmake/MAVSDK
+
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/opt/ros/kinetic/share/OpenCV-3.3.1-dev
 

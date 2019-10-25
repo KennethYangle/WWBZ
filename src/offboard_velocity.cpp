@@ -11,7 +11,10 @@
 #include <cmath>
 #include <iostream>
 #include <thread>
-
+#include <fstream>
+#include <sstream>
+#include "share_memory.h"
+#include "rapidjson/document.h"
 #include <mavsdk/mavsdk.h>
 #include <mavsdk/plugins/action/action.h>
 #include <mavsdk/plugins/offboard/offboard.h>
@@ -165,6 +168,42 @@ bool offb_ctrl_body(std::shared_ptr<mavsdk::Offboard> offboard)
     return true;
 }
 
+bool offb_ctrl_servo(std::shared_ptr<mavsdk::Offboard> offboard)
+{
+    double buffer[4] = {0};
+    unsigned int length = sizeof(buffer);
+    CShareMemory csm("obj", 1024);
+
+    std::string cfg_path = "./cfg/config.json";
+    std::ifstream in(cfg_path);
+    std::ostringstream tmp;
+    tmp << in.rdbuf();
+    std::string json = tmp.str();
+    std::cout << "cfg:\n" << json << std::endl;
+    rapidjson::Document document;
+    document.Parse(json.c_str());
+    unsigned int width = document["camera"]["frame_width"].GetUint();
+    unsigned int height = document["camera"]["frame_height"].GetUint();
+    float pitch_rate = document["control_parameters"]["pitch_rate"].GetFloat();
+    float k_yaw = document["control_parameters"]["k_yaw"].GetFloat();
+    float k_thrust = document["control_parameters"]["k_thrust"].GetFloat();
+
+    const std::string offb_mode = "ATTITUDE";
+    while (1)
+    {
+        csm.GetFromShareMem(buffer, length);
+        double ex = buffer[0] - width / 2;
+        double ey = buffer[1] - height / 2;
+        for (int i = 0; i < 4; i++)
+        {
+            printf("%.2lf ", buffer[i]);
+        }
+        printf("\n");
+
+        offboard->set_attitude_rate({0.0f, pitch_rate, k_yaw * (float)ex, k_thrust * (float)ey});
+    }
+}
+
 /**
  * Does Offboard control using attitude commands.
  *
@@ -259,23 +298,30 @@ int main(int argc, char** argv)
     std::cout << "In Air..." << std::endl;
     sleep_for(seconds(5));
 
-    //  using attitude control
-    bool ret = offb_ctrl_attitude(offboard);
+    // using visual servo control
+    bool ret = offb_ctrl_servo(offboard);
     if (ret == false) {
         return EXIT_FAILURE;
     }
 
-    //  using local NED co-ordinates
-    ret = offb_ctrl_ned(offboard);
-    if (ret == false) {
-        return EXIT_FAILURE;
-    }
 
-    //  using body co-ordinates
-    ret = offb_ctrl_body(offboard);
-    if (ret == false) {
-        return EXIT_FAILURE;
-    }
+    // //  using attitude control
+    // bool ret = offb_ctrl_attitude(offboard);
+    // if (ret == false) {
+    //     return EXIT_FAILURE;
+    // }
+
+    // //  using local NED co-ordinates
+    // ret = offb_ctrl_ned(offboard);
+    // if (ret == false) {
+    //     return EXIT_FAILURE;
+    // }
+
+    // //  using body co-ordinates
+    // ret = offb_ctrl_body(offboard);
+    // if (ret == false) {
+    //     return EXIT_FAILURE;
+    // }
 
     const Action::Result land_result = action->land();
     action_error_exit(land_result, "Landing failed");

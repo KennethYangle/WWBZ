@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
 #include <opencv2/opencv.hpp>
 #include "rapidjson/document.h"
 #include "share_memory.h"
@@ -105,15 +106,15 @@ int main(int argc, char **argv)
     const rapidjson::Value& rh2 = document["image_processing"]["red_high_2"];
     Scalar red_high_range2 = Scalar(rh2[0].GetDouble(), rh2[1].GetDouble(), rh2[2].GetDouble());
 
-    const rapidjson::Value& gl = document["image_processing"]["green_low"];
-    Scalar green_low = Scalar(gl[0].GetDouble(), gl[1].GetDouble(), gl[2].GetDouble());
-    const rapidjson::Value& gh = document["image_processing"]["green_high"];
-    Scalar green_high = Scalar(gh[0].GetDouble(), gh[1].GetDouble(), gh[2].GetDouble());
+    // const rapidjson::Value& gl = document["image_processing"]["green_low"];
+    // Scalar green_low = Scalar(gl[0].GetDouble(), gl[1].GetDouble(), gl[2].GetDouble());
+    // const rapidjson::Value& gh = document["image_processing"]["green_high"];
+    // Scalar green_high = Scalar(gh[0].GetDouble(), gh[1].GetDouble(), gh[2].GetDouble());
 
-    const rapidjson::Value& bl = document["image_processing"]["blue_low"];
-    Scalar blue_low = Scalar(bl[0].GetDouble(), bl[1].GetDouble(), bl[2].GetDouble());
-    const rapidjson::Value& bh = document["image_processing"]["blue_high"];
-    Scalar blue_high = Scalar(bh[0].GetDouble(), bh[1].GetDouble(), bh[2].GetDouble());
+    // const rapidjson::Value& bl = document["image_processing"]["blue_low"];
+    // Scalar blue_low = Scalar(bl[0].GetDouble(), bl[1].GetDouble(), bl[2].GetDouble());
+    // const rapidjson::Value& bh = document["image_processing"]["blue_high"];
+    // Scalar blue_high = Scalar(bh[0].GetDouble(), bh[1].GetDouble(), bh[2].GetDouble());
 
     const rapidjson::Value& cp1 = document["image_processing"]["circle1_param"];
     vector<double> circle1_params = {cp1["dp"].GetDouble(), cp1["minDist"].GetDouble(), cp1["param1"].GetDouble(), 

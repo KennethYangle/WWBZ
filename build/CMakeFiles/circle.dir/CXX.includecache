@@ -213,6 +213,8 @@ iostream
 -
 fstream
 -
+sstream
+-
 opencv2/opencv.hpp
 -
 rapidjson/document.h

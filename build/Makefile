@@ -124,6 +124,19 @@ CShareMemory/fast:
 .PHONY : CShareMemory/fast
 
 #=============================================================================
+# Target rules for targets named offboard
+
+# Build rule for target.
+offboard: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 offboard
+.PHONY : offboard
+
+# fast build rule for target.
+offboard/fast:
+	$(MAKE) -f CMakeFiles/offboard.dir/build.make CMakeFiles/offboard.dir/build
+.PHONY : offboard/fast
+
+#=============================================================================
 # Target rules for targets named circle
 
 # Build rule for target.
@@ -135,19 +148,6 @@ circle: cmake_check_build_system
 circle/fast:
 	$(MAKE) -f CMakeFiles/circle.dir/build.make CMakeFiles/circle.dir/build
 .PHONY : circle/fast
-
-#=============================================================================
-# Target rules for targets named main_2
-
-# Build rule for target.
-main_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main_2
-.PHONY : main_2
-
-# fast build rule for target.
-main_2/fast:
-	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/build
-.PHONY : main_2/fast
 
 src/circle_in_real.o: src/circle_in_real.cpp.o
 
@@ -176,32 +176,32 @@ src/circle_in_real.cpp.s:
 	$(MAKE) -f CMakeFiles/circle.dir/build.make CMakeFiles/circle.dir/src/circle_in_real.cpp.s
 .PHONY : src/circle_in_real.cpp.s
 
-src/main_2.o: src/main_2.cpp.o
+src/offboard_velocity.o: src/offboard_velocity.cpp.o
 
-.PHONY : src/main_2.o
+.PHONY : src/offboard_velocity.o
 
 # target to build an object file
-src/main_2.cpp.o:
-	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/src/main_2.cpp.o
-.PHONY : src/main_2.cpp.o
+src/offboard_velocity.cpp.o:
+	$(MAKE) -f CMakeFiles/offboard.dir/build.make CMakeFiles/offboard.dir/src/offboard_velocity.cpp.o
+.PHONY : src/offboard_velocity.cpp.o
 
-src/main_2.i: src/main_2.cpp.i
+src/offboard_velocity.i: src/offboard_velocity.cpp.i
 
-.PHONY : src/main_2.i
+.PHONY : src/offboard_velocity.i
 
 # target to preprocess a source file
-src/main_2.cpp.i:
-	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/src/main_2.cpp.i
-.PHONY : src/main_2.cpp.i
+src/offboard_velocity.cpp.i:
+	$(MAKE) -f CMakeFiles/offboard.dir/build.make CMakeFiles/offboard.dir/src/offboard_velocity.cpp.i
+.PHONY : src/offboard_velocity.cpp.i
 
-src/main_2.s: src/main_2.cpp.s
+src/offboard_velocity.s: src/offboard_velocity.cpp.s
 
-.PHONY : src/main_2.s
+.PHONY : src/offboard_velocity.s
 
 # target to generate assembly for a file
-src/main_2.cpp.s:
-	$(MAKE) -f CMakeFiles/main_2.dir/build.make CMakeFiles/main_2.dir/src/main_2.cpp.s
-.PHONY : src/main_2.cpp.s
+src/offboard_velocity.cpp.s:
+	$(MAKE) -f CMakeFiles/offboard.dir/build.make CMakeFiles/offboard.dir/src/offboard_velocity.cpp.s
+.PHONY : src/offboard_velocity.cpp.s
 
 src/share_memory.o: src/share_memory.cpp.o
 
@@ -238,15 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... CShareMemory"
+	@echo "... offboard"
 	@echo "... rebuild_cache"
 	@echo "... circle"
-	@echo "... main_2"
 	@echo "... src/circle_in_real.o"
 	@echo "... src/circle_in_real.i"
 	@echo "... src/circle_in_real.s"
-	@echo "... src/main_2.o"
-	@echo "... src/main_2.i"
-	@echo "... src/main_2.s"
+	@echo "... src/offboard_velocity.o"
+	@echo "... src/offboard_velocity.i"
+	@echo "... src/offboard_velocity.s"
 	@echo "... src/share_memory.o"
 	@echo "... src/share_memory.i"
 	@echo "... src/share_memory.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -O3 -O3 -DNDEBUG   CMakeFiles/offboard.dir/src/offboard_velocity.cpp.o  -o offboard -rdynamic /usr/local/lib/libmavsdk_action.so /usr/local/lib/libmavsdk_offboard.so /usr/local/lib/libmavsdk_telemetry.so /usr/local/lib/libmavsdk.so libCShareMemory.so -Wl,-rpath,/usr/local/lib:/home/kenneth/Workspace/WWBZ/build 

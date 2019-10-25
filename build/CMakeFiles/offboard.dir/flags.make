@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -pthread -O3 -O3 -DNDEBUG   -std=c++11 -Wall -Wextra -Wer
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/home/kenneth/Workspace/WWBZ/./include 
+CXX_INCLUDES = -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/home/kenneth/Workspace/WWBZ/./include -isystem /usr/local/include/mavsdk -isystem /usr/local/include 
 

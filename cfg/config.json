@@ -51,8 +51,8 @@
         }
     },
     "control_parameters": {
-        "k_p": 10,
-        "k_i": 10,
-        "k_d": 10
+        "pitch_rate": 1,
+        "k_yaw": 0.1,
+        "k_thrust": 0.1
     }
 }
