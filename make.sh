@@ -1,3 +1,5 @@
-#! /bin/bash
-cd build
-cmake .. && make -j4
+#!/bin/bash
+cd ./build
+sudo rm -rf *
+cmake ..
+make

@@ -3,21 +3,23 @@
 int main()
 {
     // u8 buffer[] = {0x11, 0x12, 0x13, 0x14, 0x15};
-    double buffer[] = {1.11, 2.22, 3.33, 4.44, 5.55};
+    double buffer[] = {320.0, 239.0, 0.0, 0.0};
     u32 length = sizeof(buffer);
     printf("length: %ud\n", length);
 
-    CShareMemory csm("txh", 1024);
+    CShareMemory csm("obj", 1024);
 
+    int flag = 1;
     while (1)
     {
-        for (int i = 0; i < 5; i++)
-        {
-            buffer[i] += 1;
-        }
+        if (buffer[0] >= 640)
+            flag = -1;
+        if (buffer[0] <= 0)
+            flag = 1;
+        buffer[0] += flag;
 
         csm.PutToShareMem(buffer, length);
-        usleep(100000);
+        usleep(10000);
     }
     return 0;
 }

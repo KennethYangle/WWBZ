@@ -1,6 +1,6 @@
 {
     "test": {
-        "video_path": "./video/20160212_003550.avi"
+        "video_path": "0"
     },
     "camera": {
         "frame_width": 640,
@@ -21,8 +21,8 @@
         "red_high_1": [180, 256, 256],
         "red_low_2": [0, 150, 230],
         "red_high_2": [20, 256, 256],
-        "green_low": [35, 150, 230],
-        "green_high": [77, 256, 256],
+        "green_low": [75, 100, 230],
+        "green_high": [86, 200, 256],
         "blue_low": [100, 150, 230],
         "blue_high": [124, 256, 256],
         "circle1_param": {
@@ -51,8 +51,11 @@
         }
     },
     "control_parameters": {
-        "pitch_rate": 1,
-        "k_yaw": 0.1,
-        "k_thrust": 0.1
+        "Kp_height": 1.0,
+        "Kp_vz": 0.2,
+        "Ki_vz": 0.01,
+        "Kp_yaw": 1.0,
+        "Kp_servo_yaw": 0.1,
+        "Kp_servo_height": 0.01
     }
 }
