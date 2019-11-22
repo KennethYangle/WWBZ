@@ -1,0 +1,7846 @@
+Tello: 23:57:18.862:  Info: start video thread
+Tello: 23:57:18.862:  Info: send connection request (cmd="conn_req:9617")
+Tello: 23:57:18.862:  Info: video receive buffer size = 425984
+Tello: 23:57:18.862:  Info: state transit State::disconnected -> State::connecting
+Tello: 23:57:18.934:  Info: connected. (port=9617)
+Tello: 23:57:18.934:  Info: send_time (cmd=0x46 seq=0x01e4)
+Tello: 23:57:18.934:  Info: state transit State::connecting -> State::connected
+Tello: 23:57:18.934:  Info: get video stream
+Tello: 23:57:18.934:  Info: start video (cmd=0x25 seq=0x01e4)
+Tello: 23:57:18.970:  Info: recv: ack: cmd=0x34 seq=0x0000 cc 60 00 27 90 34 00 00 00 00 72 a5
+Tello: 23:57:18.970:  Info: recv: ack: cmd=0x20 seq=0x0000 cc 60 00 27 b0 20 00 00 00 00 42 b9
+Tello: 23:57:18.974:  Info: recv: ack: cmd=0x34 seq=0x0000 cc 60 00 27 90 34 00 00 00 00 72 a5
+Tello: 23:57:18.975:  Info: recv: ack: cmd=0x20 seq=0x0000 cc 60 00 27 b0 20 00 00 00 00 42 b9
+Tello: 23:57:21.864:  Info: video data 873809 bytes 426.6KB/sec loss=25
+Tello: 23:57:23.883:  Info: video data 752496 bytes 363.9KB/sec
+Tello: 23:57:25.888:  Info: video data 754149 bytes 367.3KB/sec
+Tello: 23:57:27.890:  Info: video data 758332 bytes 369.9KB/sec
+Tello: 23:57:29.152:  Info: set altitude limit 30m
+Tello: 23:57:29.153:  Info: takeoff (cmd=0x54 seq=0x01e4)
+Tello: 23:57:29.153:  Info: up(val=50)
+Tello: 23:57:29.194:  Info: recv: ack: cmd=0x54 seq=0x0000 cc 60 00 27 b0 54 00 00 00 00 a1 81
+ALT:  0 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  0 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD: -1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE: 11
+Tello: 23:57:29.891:  Info: video data 749579 bytes 365.8KB/sec
+ALT:  0 | SPD: -4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  0 | SPD: -6 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  1 | SPD: -7 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  2 | SPD: -8 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  3 | SPD: -7 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  3 | SPD: -7 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:30.610:  Info: video recv: 731 bytes 2588 +113
+ALT:  4 | SPD: -6 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  4 | SPD: -6 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:30.754:  Info: video recv: 1460 bytes 2907 +115
+ALT:  5 | SPD: -5 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:30.913:  Info: video recv: 1460 bytes 2e07 +123
+ALT:  6 | SPD: -4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:31.068:  Info: video recv: 1460 bytes 3005 +132
+ALT:  6 | SPD: -4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  6 | SPD: -4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:31.236:  Info: video recv: 1460 bytes 3507 +126
+ALT:  7 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:31.384:  Info: video recv: 1460 bytes 3900 +122
+ALT:  7 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  8 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:31.451:  Info: set_yaw(val=0.10)
+Tello: 23:57:31.451:  Info: set_throttle(val=0.00)
+ALT:  8 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT:  9 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:31.634:  Info: video recv: 1460 bytes 4307 +118
+ALT:  9 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:31.769:  Info: video recv: 1460 bytes 4802 +113
+ALT:  9 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:31.909:  Info: video recv: 1460 bytes 4903 +127
+Tello: 23:57:31.909:  Info: video data 671773 bytes 325.1KB/sec
+ALT: 10 | SPD: -2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 10 | SPD: -1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 10 | SPD: -1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:32.149:  Info: video recv: 1460 bytes 5506 +116
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:32.293:  Info: video recv: 1460 bytes 5903 +119
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:32.456:  Info: video recv: 1460 bytes 5f00 +131
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:32.599:  Info: video recv: 1460 bytes 6200 +118
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:32.762:  Info: video recv: 1460 bytes 6800 +133
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:32.906:  Info: video recv: 1460 bytes 6b07 +119
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:33.072:  Info: video recv: 1460 bytes 7103 +118
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:33.220:  Info: video recv: 1460 bytes 7402 +130
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:33.364:  Info: video recv: 1460 bytes 7804 +117
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:33.510:  Info: video recv: 1460 bytes 7d05 +122
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:33.684:  Info: video recv: 1111 bytes 8388 +115
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:33.828:  Info: video recv: 1460 bytes 8707 +117
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+391.0 22.0 2
+Tello: 23:57:33.869:  Info: set_yaw(val=-0.89)
+Tello: 23:57:33.869:  Info: set_throttle(val=1.00)
+Tello: 23:57:33.869:  Info: set_pitch(val=0.60)
+391.0 22.0 2
+391.0 22.0 2
+-1.0 -1.0 2
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:33.910:  Info: video data 830642 bytes 405.5KB/sec
+-1.0 -1.0 2
+385.0 19.0 2
+Tello: 23:57:33.923:  Info: set_yaw(val=-0.95)
+385.0 19.0 2
+385.0 19.0 2
+380.0 19.0 2
+Tello: 23:57:33.956:  Info: set_yaw(val=-1.00)
+380.0 19.0 2
+380.0 19.0 2
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+380.0 19.0 2
+380.0 19.0 2
+381.0 18.0 2
+Tello: 23:57:34.009:  Info: set_yaw(val=-0.99)
+381.0 18.0 2
+386.0 20.0 2
+Tello: 23:57:34.031:  Info: set_yaw(val=-0.94)
+386.0 20.0 2
+386.0 20.0 2
+388.0 21.0 2
+Tello: 23:57:34.065:  Info: set_yaw(val=-0.92)
+388.0 21.0 2
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+388.0 21.0 2
+383.0 28.0 2
+Tello: 23:57:34.099:  Info: set_yaw(val=-0.97)
+383.0 28.0 2
+389.0 35.0 2
+Tello: 23:57:34.121:  Info: set_yaw(val=-0.91)
+389.0 35.0 2
+389.0 35.0 2
+391.0 44.0 2
+Tello: 23:57:34.154:  Info: set_yaw(val=-0.89)
+391.0 44.0 2
+389.0 57.0 2
+Tello: 23:57:34.175:  Info: set_yaw(val=-0.91)
+389.0 57.0 2
+ALT: 11 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+394.0 69.0 2
+Tello: 23:57:34.196:  Info: set_yaw(val=-0.86)
+394.0 69.0 2
+397.0 76.0 2
+Tello: 23:57:34.216:  Info: set_yaw(val=-0.83)
+397.0 76.0 2
+404.0 82.0 2
+Tello: 23:57:34.237:  Info: set_yaw(val=-0.76)
+404.0 82.0 2
+404.0 82.0 2
+401.0 95.0 2
+Tello: 23:57:34.267:  Info: set_yaw(val=-0.79)
+Tello: 23:57:34.267:  Info: set_throttle(val=0.96)
+401.0 95.0 2
+390.0 34.0 2
+Tello: 23:57:34.287:  Info: set_yaw(val=-0.90)
+Tello: 23:57:34.287:  Info: set_throttle(val=1.00)
+ALT: 11 | SPD: -5 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+390.0 34.0 2
+394.0 38.0 2
+Tello: 23:57:34.309:  Info: set_yaw(val=-0.86)
+394.0 38.0 2
+390.0 50.0 2
+Tello: 23:57:34.330:  Info: set_yaw(val=-0.90)
+390.0 50.0 2
+390.0 50.0 2
+390.0 58.0 2
+390.0 58.0 2
+385.0 123.0 2
+Tello: 23:57:34.381:  Info: set_yaw(val=-0.95)
+Tello: 23:57:34.382:  Info: set_throttle(val=0.83)
+385.0 123.0 2
+ALT: 12 | SPD: -6 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+390.0 86.0 2
+Tello: 23:57:34.403:  Info: set_yaw(val=-0.90)
+Tello: 23:57:34.403:  Info: set_throttle(val=1.00)
+390.0 86.0 2
+386.0 86.0 2
+Tello: 23:57:34.422:  Info: set_yaw(val=-0.94)
+386.0 86.0 2
+386.0 86.0 2
+382.0 90.0 2
+Tello: 23:57:34.453:  Info: set_yaw(val=-0.98)
+Tello: 23:57:34.453:  Info: set_throttle(val=0.99)
+382.0 90.0 2
+390.0 106.0 2
+Tello: 23:57:34.475:  Info: set_yaw(val=-0.90)
+Tello: 23:57:34.475:  Info: set_throttle(val=0.91)
+386.0 102.0 2
+Tello: 23:57:34.488:  Info: set_yaw(val=-0.94)
+Tello: 23:57:34.488:  Info: set_throttle(val=0.93)
+386.0 102.0 2
+ALT: 12 | SPD: -7 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+386.0 102.0 2
+386.0 106.0 2
+Tello: 23:57:34.519:  Info: set_throttle(val=0.91)
+386.0 106.0 2
+378.0 114.0 2
+Tello: 23:57:34.540:  Info: set_yaw(val=-1.00)
+Tello: 23:57:34.540:  Info: set_throttle(val=0.87)
+378.0 114.0 2
+386.0 122.0 2
+Tello: 23:57:34.560:  Info: set_yaw(val=-0.94)
+Tello: 23:57:34.560:  Info: set_throttle(val=0.83)
+386.0 122.0 2
+386.0 118.0 2
+Tello: 23:57:34.581:  Info: set_throttle(val=0.85)
+386.0 118.0 2
+ALT: 13 | SPD: -7 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+382.0 134.0 2
+Tello: 23:57:34.601:  Info: set_yaw(val=-0.98)
+Tello: 23:57:34.601:  Info: set_throttle(val=0.77)
+382.0 134.0 2
+378.0 130.0 2
+Tello: 23:57:34.622:  Info: set_yaw(val=-1.00)
+Tello: 23:57:34.622:  Info: set_throttle(val=0.79)
+378.0 130.0 2
+378.0 134.0 2
+Tello: 23:57:34.642:  Info: set_throttle(val=0.77)
+378.0 134.0 2
+382.0 142.0 2
+Tello: 23:57:34.663:  Info: set_yaw(val=-0.98)
+Tello: 23:57:34.663:  Info: set_throttle(val=0.73)
+382.0 142.0 2
+382.0 142.0 2
+382.0 142.0 2
+374.0 154.0 2
+Tello: 23:57:34.705:  Info: set_yaw(val=-1.00)
+Tello: 23:57:34.705:  Info: set_throttle(val=0.67)
+ALT: 14 | SPD: -8 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+374.0 154.0 2
+385.0 171.0 2
+Tello: 23:57:34.726:  Info: set_yaw(val=-0.95)
+Tello: 23:57:34.726:  Info: set_throttle(val=0.58)
+385.0 171.0 2
+378.0 158.0 2
+Tello: 23:57:34.746:  Info: set_yaw(val=-1.00)
+Tello: 23:57:34.746:  Info: set_throttle(val=0.65)
+378.0 158.0 2
+370.0 162.0 2
+Tello: 23:57:34.767:  Info: set_throttle(val=0.63)
+370.0 162.0 2
+366.0 154.0 2
+Tello: 23:57:34.788:  Info: set_throttle(val=0.67)
+366.0 154.0 2
+ALT: 15 | SPD: -8 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+366.0 154.0 2
+362.0 154.0 2
+362.0 154.0 2
+362.0 162.0 2
+Tello: 23:57:34.840:  Info: set_throttle(val=0.63)
+362.0 162.0 2
+362.0 162.0 2
+362.0 162.0 2
+354.0 158.0 2
+Tello: 23:57:34.882:  Info: set_throttle(val=0.65)
+354.0 158.0 2
+358.0 158.0 2
+ALT: 15 | SPD: -7 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+358.0 158.0 2
+358.0 158.0 2
+358.0 158.0 2
+350.0 158.0 2
+350.0 158.0 2
+350.0 158.0 2
+350.0 154.0 2
+Tello: 23:57:34.972:  Info: set_throttle(val=0.67)
+350.0 154.0 2
+350.0 162.0 2
+Tello: 23:57:34.992:  Info: set_throttle(val=0.63)
+350.0 162.0 2
+ALT: 16 | SPD: -7 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+342.0 158.0 2
+Tello: 23:57:35.012:  Info: set_throttle(val=0.65)
+342.0 158.0 2
+334.0 158.0 2
+334.0 158.0 2
+338.0 158.0 2
+338.0 158.0 2
+330.0 154.0 2
+Tello: 23:57:35.073:  Info: set_throttle(val=0.67)
+330.0 154.0 2
+326.0 158.0 2
+Tello: 23:57:35.094:  Info: set_throttle(val=0.65)
+326.0 158.0 2
+ALT: 17 | SPD: -6 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+326.0 162.0 2
+Tello: 23:57:35.116:  Info: set_throttle(val=0.63)
+326.0 162.0 2
+322.0 154.0 2
+Tello: 23:57:35.136:  Info: set_throttle(val=0.67)
+322.0 154.0 2
+318.0 154.0 2
+318.0 154.0 2
+318.0 154.0 2
+318.0 154.0 2
+318.0 154.0 2
+ALT: 17 | SPD: -6 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+310.0 154.0 2
+310.0 154.0 2
+298.0 154.0 2
+298.0 154.0 2
+286.0 150.0 2
+Tello: 23:57:35.257:  Info: set_throttle(val=0.69)
+286.0 150.0 2
+286.0 150.0 2
+278.0 146.0 2
+Tello: 23:57:35.289:  Info: set_throttle(val=0.71)
+278.0 146.0 2
+262.0 142.0 2
+Tello: 23:57:35.309:  Info: set_throttle(val=0.73)
+ALT: 18 | SPD: -5 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+262.0 142.0 2
+258.0 146.0 2
+Tello: 23:57:35.331:  Info: set_throttle(val=0.71)
+258.0 146.0 2
+258.0 146.0 2
+254.0 142.0 2
+Tello: 23:57:35.366:  Info: set_throttle(val=0.73)
+254.0 142.0 2
+246.0 142.0 2
+246.0 142.0 2
+ALT: 18 | SPD: -5 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+302.0 138.0 2
+Tello: 23:57:35.413:  Info: set_throttle(val=0.75)
+302.0 138.0 2
+394.0 146.0 2
+Tello: 23:57:35.434:  Info: set_yaw(val=-0.86)
+Tello: 23:57:35.434:  Info: set_throttle(val=0.71)
+394.0 146.0 2
+466.0 146.0 2
+Tello: 23:57:35.456:  Info: set_yaw(val=-0.14)
+466.0 146.0 2
+562.0 150.0 2
+Tello: 23:57:35.478:  Info: set_yaw(val=0.82)
+Tello: 23:57:35.478:  Info: set_throttle(val=0.69)
+562.0 150.0 2
+562.0 150.0 2
+638.0 162.0 2
+Tello: 23:57:35.505:  Info: set_yaw(val=1.00)
+Tello: 23:57:35.505:  Info: set_throttle(val=0.63)
+ALT: 19 | SPD: -5 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+638.0 162.0 2
+774.0 162.0 2
+774.0 162.0 2
+774.0 162.0 2
+862.0 174.0 2
+Tello: 23:57:35.556:  Info: set_throttle(val=0.57)
+862.0 174.0 2
+932.0 182.0 2
+Tello: 23:57:35.577:  Info: set_throttle(val=0.53)
+932.0 182.0 2
+932.0 182.0 2
+-1.0 -1.0 2
+ALT: 19 | SPD: -5 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+ALT: 20 | SPD: -5 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+ALT: 20 | SPD: -5 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+Tello: 23:57:35.923:  Info: video data 754996 bytes 366.2KB/sec
+ALT: 21 | SPD: -4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+ALT: 21 | SPD: -4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+-1.0 -1.0 2
+ALT: 22 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+-1.0 -1.0 2
+-1.0 -1.0 2
+ALT: 22 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+ALT: 22 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+-1.0 -1.0 2
+923.0 404.0 2
+Tello: 23:57:36.336:  Info: set_throttle(val=-0.58)
+912.0 471.0 2
+Tello: 23:57:36.366:  Info: set_throttle(val=-0.92)
+ALT: 23 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+906.0 475.0 2
+Tello: 23:57:36.397:  Info: set_throttle(val=-0.94)
+886.0 426.0 2
+Tello: 23:57:36.432:  Info: set_throttle(val=-0.69)
+877.0 469.0 2
+Tello: 23:57:36.465:  Info: set_throttle(val=-0.91)
+ALT: 23 | SPD: -3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+891.0 459.0 2
+Tello: 23:57:36.497:  Info: set_throttle(val=-0.85)
+833.0 416.0 2
+Tello: 23:57:36.533:  Info: set_throttle(val=-0.64)
+751.0 413.0 2
+Tello: 23:57:36.565:  Info: set_throttle(val=-0.62)
+ALT: 24 | SPD: -1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+758.0 417.0 2
+Tello: 23:57:36.596:  Info: set_throttle(val=-0.65)
+736.0 412.0 2
+Tello: 23:57:36.629:  Info: set_throttle(val=-0.62)
+722.0 426.0 2
+Tello: 23:57:36.664:  Info: set_throttle(val=-0.69)
+ALT: 24 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+679.0 427.0 2
+Tello: 23:57:36.694:  Info: set_throttle(val=-0.70)
+636.0 429.0 2
+Tello: 23:57:36.736:  Info: set_throttle(val=-0.70)
+640.0 436.0 2
+Tello: 23:57:36.774:  Info: set_throttle(val=-0.74)
+ALT: 23 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+745.0 450.0 2
+Tello: 23:57:36.800:  Info: set_throttle(val=-0.81)
+701.0 438.0 2
+Tello: 23:57:36.832:  Info: set_throttle(val=-0.75)
+846.0 410.0 2
+Tello: 23:57:36.868:  Info: set_throttle(val=-0.61)
+ALT: 23 | SPD:  3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+794.0 390.0 2
+Tello: 23:57:36.902:  Info: set_throttle(val=-0.51)
+918.0 390.0 2
+854.0 382.0 2
+Tello: 23:57:36.964:  Info: set_throttle(val=-0.47)
+ALT: 23 | SPD:  4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+826.0 386.0 2
+Tello: 23:57:37.003:  Info: set_throttle(val=-0.49)
+778.0 382.0 2
+Tello: 23:57:37.037:  Info: set_throttle(val=-0.47)
+726.0 366.0 2
+Tello: 23:57:37.076:  Info: set_throttle(val=-0.39)
+ALT: 22 | SPD:  4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+674.0 366.0 2
+642.0 362.0 2
+Tello: 23:57:37.133:  Info: set_throttle(val=-0.37)
+590.0 358.0 2
+Tello: 23:57:37.169:  Info: set_throttle(val=-0.35)
+550.0 346.0 2
+Tello: 23:57:37.203:  Info: set_yaw(val=0.70)
+Tello: 23:57:37.203:  Info: set_throttle(val=-0.29)
+ALT: 22 | SPD:  4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+502.0 358.0 2
+Tello: 23:57:37.246:  Info: set_yaw(val=0.22)
+Tello: 23:57:37.246:  Info: set_throttle(val=-0.35)
+470.0 350.0 2
+Tello: 23:57:37.271:  Info: set_yaw(val=-0.10)
+Tello: 23:57:37.271:  Info: set_throttle(val=-0.31)
+426.0 346.0 2
+Tello: 23:57:37.303:  Info: set_yaw(val=-0.54)
+Tello: 23:57:37.303:  Info: set_throttle(val=-0.29)
+ALT: 22 | SPD:  4 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+378.0 350.0 2
+Tello: 23:57:37.335:  Info: set_yaw(val=-1.00)
+Tello: 23:57:37.335:  Info: set_throttle(val=-0.31)
+342.0 346.0 2
+Tello: 23:57:37.364:  Info: set_throttle(val=-0.29)
+ALT: 21 | SPD:  3 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+286.0 350.0 2
+Tello: 23:57:37.401:  Info: set_throttle(val=-0.31)
+258.0 346.0 2
+Tello: 23:57:37.434:  Info: set_throttle(val=-0.29)
+210.0 346.0 2
+210.0 346.0 2
+ALT: 21 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+178.0 342.0 2
+Tello: 23:57:37.532:  Info: set_throttle(val=-0.27)
+178.0 330.0 2
+Tello: 23:57:37.586:  Info: set_throttle(val=-0.21)
+ALT: 21 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+178.0 330.0 2
+170.0 338.0 2
+Tello: 23:57:37.677:  Info: set_throttle(val=-0.25)
+170.0 338.0 2
+ALT: 20 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+230.0 322.0 2
+Tello: 23:57:37.729:  Info: set_throttle(val=-0.17)
+230.0 322.0 2
+270.0 326.0 2
+Tello: 23:57:37.770:  Info: set_throttle(val=-0.19)
+414.0 310.0 2
+Tello: 23:57:37.803:  Info: set_yaw(val=-0.66)
+Tello: 23:57:37.803:  Info: set_throttle(val=-0.11)
+ALT: 20 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+466.0 306.0 2
+Tello: 23:57:37.837:  Info: set_yaw(val=-0.14)
+Tello: 23:57:37.837:  Info: set_throttle(val=-0.09)
+506.0 306.0 2
+Tello: 23:57:37.898:  Info: set_yaw(val=0.26)
+506.0 306.0 2
+ALT: 20 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:37.926:  Info: video data 750552 bytes 365.8KB/sec
+558.0 302.0 2
+Tello: 23:57:37.941:  Info: set_yaw(val=0.78)
+Tello: 23:57:37.941:  Info: set_throttle(val=-0.07)
+594.0 298.0 2
+Tello: 23:57:37.986:  Info: set_yaw(val=1.00)
+Tello: 23:57:37.986:  Info: set_throttle(val=-0.05)
+ALT: 19 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+594.0 298.0 2
+694.0 302.0 2
+Tello: 23:57:38.041:  Info: set_throttle(val=-0.07)
+790.0 290.0 2
+Tello: 23:57:38.073:  Info: set_throttle(val=-0.01)
+826.0 294.0 2
+Tello: 23:57:38.111:  Info: set_throttle(val=-0.03)
+ALT: 19 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+850.0 298.0 2
+Tello: 23:57:38.149:  Info: set_throttle(val=-0.05)
+862.0 282.0 2
+Tello: 23:57:38.182:  Info: set_throttle(val=0.03)
+862.0 282.0 2
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+866.0 306.0 2
+Tello: 23:57:38.237:  Info: set_throttle(val=-0.09)
+870.0 346.0 2
+Tello: 23:57:38.268:  Info: set_throttle(val=-0.29)
+838.0 302.0 2
+Tello: 23:57:38.302:  Info: set_throttle(val=-0.07)
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+802.0 298.0 2
+Tello: 23:57:38.339:  Info: set_throttle(val=-0.05)
+758.0 294.0 2
+Tello: 23:57:38.369:  Info: set_throttle(val=-0.03)
+710.0 290.0 2
+Tello: 23:57:38.404:  Info: set_throttle(val=-0.01)
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+666.0 290.0 2
+626.0 294.0 2
+Tello: 23:57:38.465:  Info: set_throttle(val=-0.03)
+582.0 286.0 2
+Tello: 23:57:38.500:  Info: set_throttle(val=0.01)
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+538.0 294.0 2
+Tello: 23:57:38.538:  Info: set_yaw(val=0.58)
+Tello: 23:57:38.538:  Info: set_throttle(val=-0.03)
+538.0 294.0 2
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+438.0 290.0 2
+Tello: 23:57:38.607:  Info: set_yaw(val=-0.42)
+Tello: 23:57:38.607:  Info: set_throttle(val=-0.01)
+438.0 290.0 2
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+410.0 290.0 2
+Tello: 23:57:38.691:  Info: set_yaw(val=-0.70)
+410.0 290.0 2
+354.0 302.0 2
+Tello: 23:57:38.745:  Info: set_yaw(val=-1.00)
+Tello: 23:57:38.745:  Info: set_throttle(val=-0.07)
+262.0 306.0 2
+Tello: 23:57:38.771:  Info: set_throttle(val=-0.09)
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+218.0 306.0 2
+186.0 306.0 2
+146.0 306.0 2
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+122.0 318.0 2
+Tello: 23:57:38.908:  Info: set_throttle(val=-0.15)
+106.0 314.0 2
+Tello: 23:57:38.962:  Info: set_throttle(val=-0.13)
+102.0 314.0 2
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+122.0 314.0 2
+126.0 318.0 2
+Tello: 23:57:39.066:  Info: set_throttle(val=-0.15)
+126.0 318.0 2
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+182.0 314.0 2
+Tello: 23:57:39.113:  Info: set_throttle(val=-0.13)
+182.0 314.0 2
+230.0 314.0 2
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+326.0 294.0 2
+Tello: 23:57:39.217:  Info: set_throttle(val=-0.03)
+366.0 302.0 2
+Tello: 23:57:39.253:  Info: set_throttle(val=-0.07)
+366.0 302.0 2
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+402.0 298.0 2
+Tello: 23:57:39.303:  Info: set_yaw(val=-0.78)
+Tello: 23:57:39.303:  Info: set_throttle(val=-0.05)
+402.0 298.0 2
+510.0 298.0 2
+Tello: 23:57:39.376:  Info: set_yaw(val=0.30)
+ALT: 19 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+550.0 306.0 2
+Tello: 23:57:39.417:  Info: set_yaw(val=0.70)
+Tello: 23:57:39.417:  Info: set_throttle(val=-0.09)
+550.0 306.0 2
+662.0 294.0 2
+Tello: 23:57:39.482:  Info: set_yaw(val=1.00)
+Tello: 23:57:39.482:  Info: set_throttle(val=-0.03)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+662.0 294.0 2
+754.0 298.0 2
+Tello: 23:57:39.538:  Info: set_throttle(val=-0.05)
+814.0 298.0 2
+930.0 282.0 2
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:39.600:  Info: set_throttle(val=0.03)
+934.0 314.0 2
+Tello: 23:57:39.629:  Info: set_throttle(val=-0.13)
+934.0 314.0 2
+934.0 298.0 2
+Tello: 23:57:39.698:  Info: set_throttle(val=-0.05)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+934.0 318.0 2
+Tello: 23:57:39.733:  Info: set_throttle(val=-0.15)
+906.0 310.0 2
+Tello: 23:57:39.768:  Info: set_throttle(val=-0.11)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+890.0 314.0 2
+Tello: 23:57:39.815:  Info: set_throttle(val=-0.13)
+890.0 314.0 2
+890.0 314.0 2
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+814.0 306.0 2
+Tello: 23:57:39.927:  Info: set_throttle(val=-0.09)
+814.0 306.0 2
+Tello: 23:57:39.962:  Info: video data 752759 bytes 361.2KB/sec
+738.0 302.0 2
+Tello: 23:57:39.979:  Info: set_throttle(val=-0.07)
+738.0 306.0 2
+Tello: 23:57:40.002:  Info: set_throttle(val=-0.09)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+746.0 306.0 2
+750.0 306.0 2
+710.0 310.0 2
+Tello: 23:57:40.100:  Info: set_throttle(val=-0.11)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+710.0 314.0 2
+Tello: 23:57:40.144:  Info: set_throttle(val=-0.13)
+710.0 314.0 2
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+678.0 314.0 2
+678.0 314.0 2
+654.0 310.0 2
+Tello: 23:57:40.276:  Info: set_throttle(val=-0.11)
+558.0 310.0 2
+Tello: 23:57:40.305:  Info: set_yaw(val=0.78)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+486.0 318.0 2
+Tello: 23:57:40.336:  Info: set_yaw(val=0.06)
+Tello: 23:57:40.336:  Info: set_throttle(val=-0.15)
+426.0 322.0 2
+Tello: 23:57:40.370:  Info: set_yaw(val=-0.54)
+Tello: 23:57:40.370:  Info: set_throttle(val=-0.17)
+382.0 326.0 2
+Tello: 23:57:40.402:  Info: set_yaw(val=-0.98)
+Tello: 23:57:40.402:  Info: set_throttle(val=-0.19)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+338.0 318.0 2
+Tello: 23:57:40.435:  Info: set_yaw(val=-1.00)
+Tello: 23:57:40.435:  Info: set_throttle(val=-0.15)
+338.0 318.0 2
+238.0 330.0 2
+Tello: 23:57:40.509:  Info: set_throttle(val=-0.21)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+190.0 334.0 2
+Tello: 23:57:40.539:  Info: set_throttle(val=-0.23)
+150.0 338.0 2
+Tello: 23:57:40.567:  Info: set_throttle(val=-0.25)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+94.0 350.0 2
+Tello: 23:57:40.615:  Info: set_throttle(val=-0.31)
+94.0 350.0 2
+82.0 350.0 2
+54.0 354.0 2
+Tello: 23:57:40.706:  Info: set_throttle(val=-0.33)
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+110.0 350.0 2
+Tello: 23:57:40.737:  Info: set_throttle(val=-0.31)
+126.0 358.0 2
+Tello: 23:57:40.791:  Info: set_throttle(val=-0.35)
+126.0 358.0 2
+ALT: 18 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+162.0 350.0 2
+Tello: 23:57:40.846:  Info: set_throttle(val=-0.31)
+162.0 350.0 2
+234.0 342.0 2
+Tello: 23:57:40.903:  Info: set_throttle(val=-0.27)
+ALT: 18 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1Sub-process start.
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 87
+green
+R: 90
+green
+R: 86
+green
+R: 84
+green
+R: 0
+green
+R: 86
+green
+R: 83
+green
+R: 87
+green
+R: 85
+green
+R: 80
+green
+R: 79
+green
+R: 87
+green
+R: 78
+green
+R: 84
+green
+R: 84
+green
+R: 84
+green
+R: 82
+green
+R: 81
+green
+R: 84
+green
+R: 83
+green
+R: 0
+green
+R: 82
+green
+R: 85
+green
+R: 84
+green
+R: 82
+green
+R: 82
+green
+R: 83
+green
+R: 86
+green
+R: 82
+green
+R: 81
+green
+R: 84
+green
+R: 86
+green
+R: 85
+green
+R: 83
+green
+R: 87
+green
+R: 82
+green
+R: 84
+green
+R: 86
+green
+R: 80
+green
+R: 86
+green
+R: 85
+green
+R: 80
+green
+R: 88
+green
+R: 84
+green
+R: 82
+green
+R: 88
+green
+R: 84
+green
+R: 83
+green
+R: 86
+green
+R: 93
+green
+R: 86
+green
+R: 88
+green
+R: 81
+green
+R: 81
+green
+R: 86
+green
+R: 90
+green
+R: 92
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 105
+green
+R: 105
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: 98
+green
+R: 98
+green
+R: 96
+green
+R: 107
+green
+R: 107
+green
+R: 104
+green
+R: 104
+green
+R: 96
+green
+R: 96
+green
+R: 87
+green
+R: 94
+green
+R: 98
+green
+R: 98
+green
+R: 92
+green
+R: 92
+green
+R: 89
+green
+R: 89
+green
+R: 94
+green
+R: 97
+green
+R: 97
+green
+R: 93
+green
+R: 97
+green
+R: 97
+green
+R: 95
+green
+R: 95
+green
+R: 98
+green
+R: 105
+green
+R: 105
+green
+R: 105
+green
+R: 107
+green
+R: 104
+green
+R: 111
+green
+R: 111
+green
+R: 101
+green
+R: 104
+green
+R: 100
+green
+R: 93
+green
+R: 96
+green
+R: 101
+green
+R: 101
+green
+R: 98
+green
+R: 104
+green
+R: 110
+green
+R: 110
+green
+R: 123
+green
+R: 120
+green
+R: 120
+green
+R: 134
+green
+R: 121
+green
+R: 162
+green
+R: 0
+green
+R: 121
+green
+R: 125
+green
+R: 125
+green
+R: 121
+green
+R: 117
+green
+R: 117
+green
+R: 116
+green
+R: 114
+green
+R: 114
+green
+R: 117
+green
+R: 120
+green
+R: 120
+green
+R: 121
+green
+R: 119
+green
+R: 117
+green
+R: 116
+green
+R: 123
+green
+R: 126
+green
+R: 132
+green
+R: 134
+green
+R: 136
+green
+R: 149
+green
+R: 138
+green
+R: 136
+green
+R: 130
+green
+R: 131
+green
+R: 131
+green
+R: 136
+green
+R: 136
+green
+R: 136
+green
+R: 126
+green
+R: 136
+green
+R: 131
+green
+R: 138
+green
+R: 146
+green
+R: 148
+green
+R: 158
+green
+R: 188
+green
+R: 150
+green
+R: 150
+green
+R: 164
+green
+R: 142
+green
+R: 146
+green
+R: 146
+green
+R: 134
+green
+R: 162
+green
+R: 162
+green
+R: 168
+green
+R: 170
+green
+R: 175
+green
+R: 174
+green
+R: 184
+green
+R: 184
+green
+R: 178
+green
+R: 174
+green
+R: 174
+green
+R: 182
+green
+R: 180
+green
+R: 183
+green
+R: 182
+green
+R: 180
+green
+R: 190
+green
+R: 196
+green
+R: 196
+green
+R: 203
+green
+R: 207
+green
+R: 211
+green
+R: 212
+green
+R: 217
+green
+R: 217
+green
+R: 217
+green
+R: 219
+green
+R: 220
+green
+R: 236
+green
+R: 236
+green
+R: 220
+green
+R: 220
+green
+R: 230
+green
+R: 225
+green
+R: 234
+green
+R: 235
+green
+R: 238
+green
+R: 252
+green
+R: 255
+green
+R: 274
+green
+R: 275
+green
+R: 301
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+234.0 342.0 2
+286.0 354.0 2
+Tello: 23:57:40.989:  Info: set_throttle(val=-0.33)
+286.0 354.0 2
+ALT: 18 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+286.0 354.0 2
+406.0 342.0 2
+Tello: 23:57:41.066:  Info: set_yaw(val=-0.74)
+Tello: 23:57:41.066:  Info: set_throttle(val=-0.27)
+ALT: 18 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+506.0 338.0 2
+Tello: 23:57:41.102:  Info: set_yaw(val=0.26)
+Tello: 23:57:41.102:  Info: set_throttle(val=-0.25)
+550.0 342.0 2
+Tello: 23:57:41.138:  Info: set_yaw(val=0.70)
+Tello: 23:57:41.138:  Info: set_throttle(val=-0.27)
+ALT: 17 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+550.0 342.0 2
+638.0 346.0 2
+Tello: 23:57:41.200:  Info: set_yaw(val=1.00)
+Tello: 23:57:41.200:  Info: set_throttle(val=-0.29)
+686.0 346.0 2
+778.0 354.0 3
+Tello: 23:57:41.270:  Info: set_throttle(val=-0.33)
+ALT: 17 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+778.0 354.0 3
+806.0 370.0 3
+Tello: 23:57:41.330:  Info: set_throttle(val=-0.41)
+854.0 358.0 3
+Tello: 23:57:41.365:  Info: set_throttle(val=-0.35)
+ALT: 17 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+902.0 358.0 3
+902.0 366.0 3
+Tello: 23:57:41.433:  Info: set_throttle(val=-0.39)
+894.0 378.0 3
+Tello: 23:57:41.466:  Info: set_throttle(val=-0.45)
+ALT: 17 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+866.0 370.0 3
+Tello: 23:57:41.516:  Info: set_throttle(val=-0.41)
+866.0 370.0 3
+830.0 374.0 3
+Tello: 23:57:41.569:  Info: set_throttle(val=-0.43)
+ALT: 17 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+806.0 358.0 3
+Tello: 23:57:41.607:  Info: set_throttle(val=-0.35)
+726.0 362.0 3
+Tello: 23:57:41.633:  Info: set_throttle(val=-0.37)
+738.0 370.0 3
+Tello: 23:57:41.667:  Info: set_throttle(val=-0.41)
+ALT: 17 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+678.0 370.0 3
+638.0 374.0 3
+Tello: 23:57:41.733:  Info: set_throttle(val=-0.43)
+530.0 370.0 3
+Tello: 23:57:41.768:  Info: set_yaw(val=0.50)
+Tello: 23:57:41.768:  Info: set_throttle(val=-0.41)
+ALT: 16 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+530.0 370.0 3
+474.0 366.0 3
+Tello: 23:57:41.835:  Info: set_yaw(val=-0.06)
+Tello: 23:57:41.835:  Info: set_throttle(val=-0.39)
+330.0 330.0 3
+Tello: 23:57:41.869:  Info: set_yaw(val=-1.00)
+Tello: 23:57:41.869:  Info: set_throttle(val=-0.21)
+ALT: 16 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+410.0 346.0 3
+Tello: 23:57:41.915:  Info: set_yaw(val=-0.70)
+Tello: 23:57:41.915:  Info: set_throttle(val=-0.29)
+410.0 346.0 3
+Tello: 23:57:41.966:  Info: video data 769468 bytes 374.9KB/sec
+Tello: 23:57:41.968:  Info: set_yaw(val=0.00)
+Tello: 23:57:41.968:  Info: set_throttle(val=0.00)
+ALT: 16 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 16 | SPD:  2 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+422.0 346.0 3
+Tello: 23:57:42.197:  Info: set_yaw(val=-0.58)
+Tello: 23:57:42.197:  Info: set_throttle(val=-0.29)
+ALT: 15 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:42.234:  Info: set_yaw(val=0.00)
+Tello: 23:57:42.234:  Info: set_throttle(val=0.00)
+ALT: 15 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  1 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:42.495:  Info: set_yaw(val=-0.10)
+Tello: 23:57:42.495:  Info: set_pitch(val=0.00)
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 23:57:43.983:  Info: video data 754611 bytes 365.3KB/sec loss=1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:45.989:  Info: video data 754310 bytes 367.2KB/sec
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:47.992:  Info: video data 750746 bytes 366.1KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:49.992:  Info: video data 749966 bytes 366.2KB/sec loss=1
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:51.994:  Info: video data 753006 bytes 367.3KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:53.999:  Info: video data 748026 bytes 364.3KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:56.012:  Info: video data 755212 bytes 366.5KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:57:58.020:  Info: video data 757945 bytes 368.6KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:00.029:  Info: video data 750917 bytes 365.0KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:02.029:  Info: video data 755445 bytes 368.9KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:04.052:  Info: video data 758977 bytes 366.3KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:06.053:  Info: video data 751262 bytes 366.8KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:08.057:  Info: video data 757490 bytes 369.0KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:10.078:  Info: video data 742875 bytes 358.9KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:12.089:  Info: video data 739092 bytes 359.0KB/sec
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:13.644:  Info: video recv: 1460 bytes 5902 +143
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:13.770:  Info: video recv: 1460 bytes 5a02 +115
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:13.924:  Info: video recv: 876 bytes 5d88 +117
+Tello: 23:58:14.075:  Info: video recv: 1460 bytes 5f07 +134
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:14.104:  Info: video data 645635 bytes 312.9KB/sec
+Tello: 23:58:14.258:  Info: video recv: 1460 bytes 6105 +138
+Tello: 23:58:14.410:  Info: video recv: 1460 bytes 6204 +142
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:14.642:  Info: video recv: 1460 bytes 6600 +125
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:14.909:  Info: video recv: 1460 bytes 6c05 +119
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:15.160:  Info: video recv: 1460 bytes 7900 +115
+Tello: 23:58:15.303:  Info: video recv: 1460 bytes 8003 +120
+Tello: 23:58:15.468:  Info: video recv: 1460 bytes 8202 +124
+Tello: 23:58:15.610:  Info: video recv: 1460 bytes 8604 +120
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:15.773:  Info: video recv: 1460 bytes 8901 +119
+Tello: 23:58:15.936:  Info: video recv: 1460 bytes 8a00 +154
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:16.084:  Info: video recv: 1460 bytes 8d05 +125
+Tello: 23:58:16.388:  Info: video recv: 1460 bytes 8f03 +303
+Tello: 23:58:16.388:  Info: video data 258423 bytes 110.5KB/sec loss=205
+Tello: 23:58:16.863:  Info: video recv: 1460 bytes 9707 +470
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+Tello: 23:58:17.466:  Info: video recv: 1460 bytes a100 +603
+Tello: 23:58:17.930:  Info: video recv: 1460 bytes b203 +463
+Tello: 23:58:18.136:  Info: video recv: 529 bytes ba86 +206
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:18.322:  Info: video recv: 1460 bytes bb00 +186
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:18.580:  Info: video recv: 1460 bytes c602 +221
+Tello: 23:58:18.580:  Info: video data 12407 bytes   5.5KB/sec loss=482
+Tello: 23:58:18.849:  Info: video recv: 1460 bytes c707 +269
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:20.592:  Info: video data 142880 bytes  69.4KB/sec loss=204
+ALT: 15 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:22.601:  Info: video data 151581 bytes  73.7KB/sec loss=127
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:24.602:  Info: video data 537192 bytes 262.2KB/sec loss=1072
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:26.614:  Info: video data 843911 bytes 409.5KB/sec loss=1
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:28.617:  Info: video data 751166 bytes 366.4KB/sec
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:30.618:  Info: video data 751034 bytes 366.5KB/sec loss=1
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:32.618:  Info: video data 749607 bytes 366.0KB/sec
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:34.619:  Info: video data 751060 bytes 366.4KB/sec
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:36.619:  Info: video data 752428 bytes 367.4KB/sec
+ALT: 14 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 14 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:38.640:  Info: video data 749807 bytes 362.4KB/sec
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:40.657:  Info: video data 760789 bytes 368.4KB/sec loss=2
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:42.658:  Info: video data 759967 bytes 370.7KB/sec
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+blue
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 73 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:44.661:  Info: video data 739865 bytes 360.8KB/sec
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 23:58:46.687:  Info: video data 766173 bytes 369.3KB/sec
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 16 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+391.0 89.0 5
+Tello: 23:58:47.897:  Info: set_yaw(val=-0.89)
+Tello: 23:58:47.897:  Info: set_throttle(val=0.99)
+Tello: 23:58:47.897:  Info: set_pitch(val=0.60)
+393.0 86.0 5
+Tello: 23:58:47.929:  Info: set_yaw(val=-0.87)
+Tello: 23:58:47.929:  Info: set_throttle(val=1.00)
+-1.0 -1.0 5
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 15 | SPD:  0 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+423.0 70.0 5
+Tello: 23:58:48.196:  Info: set_yaw(val=-0.57)
+ALT: 15 | SPD: -1 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+485.0 85.0 5
+Tello: 23:58:48.263:  Info: set_yaw(val=0.05)
+ALT: 15 | SPD: -3 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 16 | SPD: -5 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 16 | SPD: -6 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 17 | SPD: -7 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+Tello: 23:58:48.687:  Info: video data 750906 bytes 366.6KB/sec
+ALT: 18 | SPD: -8 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 19 | SPD: -9 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 20 | SPD: -9 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 21 | SPD: -7 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 21 | SPD: -6 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 22 | SPD: -6 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 22 | SPD:  2 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 23 | SPD:  7 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 22 | SPD: 16 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 20 | SPD: 25 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 17 | SPD: 34 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+ALT: 13 | SPD: 43 | BAT: 72 | WIFI: 90 | CAM:  0 | MODE:  6
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+-1.0 -1.0 5
+Tello: 23:58:51.826: Error: recv: timeout
+Tello: 23:58:51.826:  Info: send connection request (cmd="conn_req:9617")
+Tello: 23:58:51.826:  Info: state transit State::connected -> State::connecting
+Tello: 23:58:51.826:  Info: VideoStream.handle_event(DISCONNECTED)
+515.0 191.0 5
+Tello: 23:58:51.835:  Info: set_yaw(val=0.35)
+Tello: 23:58:51.835:  Info: set_throttle(val=0.48)
+[Errno 541478725] End of file
+Tello: 23:58:51.835:  Info: land (cmd=0x55 seq=0x01e4)
+Tello: 23:58:51.835:  Info: quit
+Tello: 23:58:51.836:  Info: state transit State::connecting -> State::quit

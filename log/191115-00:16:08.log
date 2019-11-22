@@ -1,0 +1,2436 @@
+Tello: 00:16:09.107:  Info: start video thread
+Tello: 00:16:09.107:  Info: send connection request (cmd="conn_req:9617")
+Tello: 00:16:09.107:  Info: video receive buffer size = 425984
+Tello: 00:16:09.107:  Info: state transit State::disconnected -> State::connecting
+Tello: 00:16:09.161:  Info: connected. (port=9617)
+Tello: 00:16:09.161:  Info: send_time (cmd=0x46 seq=0x01e4)
+Tello: 00:16:09.161:  Info: state transit State::connecting -> State::connected
+Tello: 00:16:09.161:  Info: get video stream
+Tello: 00:16:09.161:  Info: start video (cmd=0x25 seq=0x01e4)
+Tello: 00:16:09.213:  Info: recv: ack: cmd=0x34 seq=0x0000 cc 60 00 27 90 34 00 00 00 00 72 a5
+Tello: 00:16:09.213:  Info: recv: ack: cmd=0x20 seq=0x0000 cc 60 00 27 b0 20 00 00 00 00 42 b9
+Tello: 00:16:09.214:  Info: recv: ack: cmd=0x34 seq=0x0000 cc 60 00 27 90 34 00 00 00 00 72 a5
+Tello: 00:16:09.214:  Info: recv: ack: cmd=0x20 seq=0x0000 cc 60 00 27 b0 20 00 00 00 00 42 b9
+Tello: 00:16:10.262:  Info: video recv: 842 bytes 4c88 +122
+Tello: 00:16:10.416:  Info: video recv: 1460 bytes 5206 +126
+Tello: 00:16:10.664:  Info: video recv: 1460 bytes 5b00 +125
+Tello: 00:16:10.929:  Info: video recv: 1460 bytes 6300 +129
+Tello: 00:16:11.178:  Info: video recv: 816 bytes 6a88 +119
+Tello: 00:16:11.322:  Info: video recv: 859 bytes 6d88 +117
+Tello: 00:16:11.487:  Info: video recv: 1460 bytes 7303 +119
+Tello: 00:16:11.629:  Info: video recv: 1460 bytes 7705 +117
+Tello: 00:16:11.793:  Info: video recv: 1460 bytes 7d00 +123
+Tello: 00:16:11.934:  Info: video recv: 1460 bytes 8100 +121
+Tello: 00:16:12.101:  Info: video recv: 1460 bytes 8600 +121
+Tello: 00:16:12.109:  Info: video data 890754 bytes 434.9KB/sec loss=35
+Tello: 00:16:12.243:  Info: video recv: 1460 bytes 8904 +120
+Tello: 00:16:12.408:  Info: video recv: 1460 bytes 9103 +120
+Tello: 00:16:12.550:  Info: video recv: 1460 bytes 9408 +117
+Tello: 00:16:12.713:  Info: video recv: 1460 bytes 9802 +119
+Tello: 00:16:12.858:  Info: video recv: 1460 bytes 9b05 +117
+Tello: 00:16:14.122:  Info: video data 782768 bytes 379.7KB/sec
+Tello: 00:16:16.124:  Info: video data 752650 bytes 367.1KB/sec loss=1
+Tello: 00:16:18.124:  Info: video data 751150 bytes 366.7KB/sec
+Tello: 00:16:19.354:  Info: set altitude limit 30m
+Tello: 00:16:19.354:  Info: takeoff (cmd=0x54 seq=0x01e4)
+Tello: 00:16:19.354:  Info: up(val=50)
+Tello: 00:16:19.370:  Info: recv: ack: cmd=0x54 seq=0x0000 cc 60 00 27 b0 54 00 00 00 00 a1 81
+ALT:  0 | SPD:  0 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  0 | SPD:  0 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD: -1 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD: -3 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 00:16:20.127:  Info: video data 749546 bytes 365.5KB/sec
+ALT:  0 | SPD: -6 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  1 | SPD: -7 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  2 | SPD: -8 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  2 | SPD: -8 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  3 | SPD: -8 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  4 | SPD: -7 | BAT: 57 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  5 | SPD: -6 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  5 | SPD: -6 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  6 | SPD: -5 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  6 | SPD: -4 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  7 | SPD: -4 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  7 | SPD: -4 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  8 | SPD: -3 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  8 | SPD: -3 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  8 | SPD: -3 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 00:16:21.649:  Info: set_yaw(val=0.20)
+Tello: 00:16:21.649:  Info: set_throttle(val=0.00)
+489.0 17.0 2
+Tello: 00:16:21.700:  Info: set_yaw(val=0.04)
+Tello: 00:16:21.700:  Info: set_throttle(val=1.00)
+Tello: 00:16:21.700:  Info: set_pitch(val=0.60)
+489.0 17.0 2
+489.0 17.0 2
+489.0 17.0 2
+489.0 17.0 2
+ALT:  9 | SPD: -3 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+489.0 17.0 2
+489.0 16.0 2
+489.0 16.0 2
+489.0 16.0 2
+491.0 18.0 2
+Tello: 00:16:21.787:  Info: set_yaw(val=0.04)
+ALT:  9 | SPD: -3 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+491.0 18.0 2
+491.0 18.0 2
+491.0 17.0 2
+491.0 17.0 2
+491.0 17.0 2
+491.0 19.0 2
+491.0 19.0 2
+491.0 19.0 2
+491.0 18.0 2
+491.0 18.0 2
+491.0 18.0 2
+ALT: 10 | SPD: -3 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+491.0 15.0 2
+491.0 15.0 2
+491.0 15.0 2
+492.0 13.0 2
+Tello: 00:16:21.937:  Info: set_yaw(val=0.05)
+492.0 13.0 2
+491.0 13.0 2
+Tello: 00:16:21.957:  Info: set_yaw(val=0.04)
+491.0 13.0 2
+491.0 13.0 2
+493.0 19.0 2
+Tello: 00:16:21.984:  Info: set_yaw(val=0.05)
+493.0 19.0 2
+ALT: 10 | SPD: -4 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+493.0 19.0 2
+493.0 22.0 2
+493.0 22.0 2
+493.0 22.0 2
+491.0 16.0 2
+Tello: 00:16:22.046:  Info: set_yaw(val=0.04)
+491.0 16.0 2
+491.0 16.0 2
+493.0 14.0 2
+Tello: 00:16:22.077:  Info: set_yaw(val=0.05)
+493.0 14.0 2
+493.0 14.0 2
+491.0 14.0 2
+Tello: 00:16:22.105:  Info: set_yaw(val=0.04)
+ALT: 11 | SPD: -5 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+491.0 14.0 2
+491.0 14.0 2
+Tello: 00:16:22.130:  Info: video data 751269 bytes 366.2KB/sec
+492.0 15.0 2
+Tello: 00:16:22.137:  Info: set_yaw(val=0.05)
+492.0 15.0 2
+492.0 15.0 2
+493.0 17.0 2
+Tello: 00:16:22.165:  Info: set_yaw(val=0.05)
+493.0 17.0 2
+493.0 17.0 2
+492.0 15.0 2
+Tello: 00:16:22.194:  Info: set_yaw(val=0.05)
+492.0 15.0 2
+ALT: 11 | SPD: -7 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+491.0 14.0 2
+Tello: 00:16:22.213:  Info: set_yaw(val=0.04)
+491.0 14.0 2
+491.0 14.0 2
+493.0 13.0 2
+Tello: 00:16:22.240:  Info: set_yaw(val=0.05)
+493.0 13.0 2
+493.0 13.0 2
+487.0 15.0 2
+Tello: 00:16:22.271:  Info: set_yaw(val=0.03)
+487.0 15.0 2
+487.0 15.0 2
+488.0 15.0 2
+Tello: 00:16:22.303:  Info: set_yaw(val=0.03)
+488.0 15.0 2
+486.0 15.0 2
+Tello: 00:16:22.324:  Info: set_yaw(val=0.02)
+ALT: 12 | SPD: -8 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+486.0 15.0 2
+486.0 15.0 2
+485.0 15.0 2
+Tello: 00:16:22.355:  Info: set_yaw(val=0.02)
+485.0 15.0 2
+485.0 15.0 2
+485.0 18.0 2
+485.0 18.0 2
+485.0 18.0 2
+ALT: 13 | SPD: -8 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+487.0 13.0 2
+Tello: 00:16:22.411:  Info: set_yaw(val=0.03)
+487.0 13.0 2
+488.0 17.0 2
+Tello: 00:16:22.432:  Info: set_yaw(val=0.03)
+488.0 17.0 2
+488.0 17.0 2
+488.0 14.0 2
+488.0 14.0 2
+488.0 14.0 2
+487.0 18.0 2
+Tello: 00:16:22.493:  Info: set_yaw(val=0.03)
+487.0 18.0 2
+487.0 18.0 2
+ALT: 14 | SPD: -9 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+487.0 16.0 2
+487.0 16.0 2
+487.0 16.0 2
+490.0 18.0 2
+Tello: 00:16:22.549:  Info: set_yaw(val=0.04)
+490.0 18.0 2
+490.0 16.0 2
+490.0 16.0 2
+490.0 16.0 2
+490.0 16.0 2
+489.0 18.0 2
+Tello: 00:16:22.607:  Info: set_yaw(val=0.04)
+489.0 18.0 2
+ALT: 15 | SPD: -9 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+488.0 17.0 2
+Tello: 00:16:22.628:  Info: set_yaw(val=0.03)
+488.0 17.0 2
+488.0 17.0 2
+489.0 16.0 2
+Tello: 00:16:22.653:  Info: set_yaw(val=0.04)
+489.0 16.0 2
+489.0 16.0 2
+488.0 19.0 2
+Tello: 00:16:22.682:  Info: set_yaw(val=0.03)
+488.0 19.0 2
+488.0 19.0 2
+488.0 16.0 2
+ALT: 16 | SPD: -9 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+488.0 16.0 2
+488.0 16.0 2
+488.0 21.0 2
+488.0 21.0 2
+488.0 21.0 2
+488.0 19.0 2
+488.0 19.0 2
+488.0 19.0 2
+488.0 19.0 2
+488.0 19.0 2
+488.0 19.0 2
+489.0 18.0 2
+Tello: 00:16:22.823:  Info: set_yaw(val=0.04)
+ALT: 17 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+489.0 18.0 2
+489.0 18.0 2
+493.0 14.0 2
+Tello: 00:16:22.853:  Info: set_yaw(val=0.05)
+493.0 14.0 2
+493.0 14.0 2
+494.0 22.0 2
+Tello: 00:16:22.881:  Info: set_yaw(val=0.06)
+494.0 22.0 2
+494.0 22.0 2
+492.0 16.0 2
+Tello: 00:16:22.911:  Info: set_yaw(val=0.05)
+ALT: 18 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+492.0 16.0 2
+492.0 16.0 2
+492.0 21.0 2
+492.0 21.0 2
+492.0 21.0 2
+492.0 17.0 2
+492.0 17.0 2
+493.0 15.0 2
+Tello: 00:16:22.991:  Info: set_yaw(val=0.05)
+493.0 15.0 2
+493.0 15.0 2
+492.0 13.0 2
+Tello: 00:16:23.021:  Info: set_yaw(val=0.05)
+492.0 13.0 2
+492.0 13.0 2
+493.0 16.0 2
+Tello: 00:16:23.053:  Info: set_yaw(val=0.05)
+493.0 16.0 2
+492.0 15.0 2
+Tello: 00:16:23.072:  Info: set_yaw(val=0.05)
+492.0 15.0 2
+492.0 15.0 2
+491.0 18.0 2
+Tello: 00:16:23.101:  Info: set_yaw(val=0.04)
+ALT: 19 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+491.0 18.0 2
+491.0 18.0 2
+490.0 18.0 2
+Tello: 00:16:23.130:  Info: set_yaw(val=0.04)
+490.0 18.0 2
+490.0 18.0 2
+ALT: 20 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+490.0 18.0 2
+490.0 18.0 2
+490.0 18.0 2
+491.0 19.0 2
+Tello: 00:16:23.187:  Info: set_yaw(val=0.04)
+491.0 19.0 2
+492.0 17.0 2
+Tello: 00:16:23.206:  Info: set_yaw(val=0.05)
+492.0 17.0 2
+492.0 17.0 2
+493.0 18.0 2
+Tello: 00:16:23.236:  Info: set_yaw(val=0.05)
+ALT: 21 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+493.0 18.0 2
+493.0 18.0 2
+493.0 18.0 2
+493.0 18.0 2
+493.0 18.0 2
+493.0 18.0 2
+493.0 18.0 2
+493.0 18.0 2
+492.0 20.0 2
+Tello: 00:16:23.322:  Info: set_yaw(val=0.05)
+492.0 20.0 2
+ALT: 22 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+492.0 19.0 2
+492.0 19.0 2
+492.0 19.0 2
+493.0 19.0 2
+Tello: 00:16:23.370:  Info: set_yaw(val=0.05)
+493.0 19.0 2
+493.0 19.0 2
+491.0 20.0 2
+Tello: 00:16:23.400:  Info: set_yaw(val=0.04)
+491.0 20.0 2
+491.0 20.0 2
+494.0 19.0 2
+Tello: 00:16:23.429:  Info: set_yaw(val=0.06)
+494.0 19.0 2
+ALT: 23 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+494.0 19.0 2
+493.0 20.0 2
+Tello: 00:16:23.458:  Info: set_yaw(val=0.05)
+493.0 20.0 2
+493.0 20.0 2
+493.0 19.0 2
+493.0 19.0 2
+493.0 19.0 2
+491.0 20.0 2
+Tello: 00:16:23.516:  Info: set_yaw(val=0.04)
+491.0 20.0 2
+491.0 20.0 2
+ALT: 24 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+492.0 20.0 2
+Tello: 00:16:23.545:  Info: set_yaw(val=0.05)
+492.0 20.0 2
+492.0 20.0 2
+492.0 19.0 2
+492.0 19.0 2
+493.0 18.0 2
+Tello: 00:16:23.596:  Info: set_yaw(val=0.05)
+493.0 18.0 2
+493.0 18.0 2
+492.0 18.0 2
+Tello: 00:16:23.625:  Info: set_yaw(val=0.05)
+492.0 18.0 2
+ALT: 25 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+492.0 18.0 2
+491.0 17.0 2
+Tello: 00:16:23.656:  Info: set_yaw(val=0.04)
+491.0 17.0 2
+491.0 17.0 2
+494.0 15.0 2
+Tello: 00:16:23.686:  Info: set_yaw(val=0.06)
+494.0 15.0 2
+494.0 15.0 2
+493.0 13.0 2
+Tello: 00:16:23.716:  Info: set_yaw(val=0.05)
+493.0 13.0 2
+493.0 13.0 2
+ALT: 26 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+492.0 14.0 2
+Tello: 00:16:23.746:  Info: set_yaw(val=0.05)
+492.0 14.0 2
+492.0 14.0 2
+491.0 13.0 2
+Tello: 00:16:23.777:  Info: set_yaw(val=0.04)
+491.0 13.0 2
+491.0 13.0 2
+493.0 15.0 2
+Tello: 00:16:23.806:  Info: set_yaw(val=0.05)
+493.0 15.0 2
+493.0 15.0 2
+477.0 10.0 2
+Tello: 00:16:23.834:  Info: set_yaw(val=-0.01)
+477.0 10.0 2
+ALT: 27 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+477.0 10.0 2
+477.0 8.0 2
+477.0 8.0 2
+477.0 8.0 2
+ALT: 28 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+478.0 12.0 2
+Tello: 00:16:23.894:  Info: set_yaw(val=-0.01)
+478.0 12.0 2
+478.0 12.0 2
+478.0 11.0 2
+478.0 11.0 2
+479.0 8.0 2
+Tello: 00:16:23.942:  Info: set_yaw(val=-0.00)
+479.0 8.0 2
+479.0 8.0 2
+477.0 8.0 2
+Tello: 00:16:23.972:  Info: set_yaw(val=-0.01)
+477.0 8.0 2
+477.0 8.0 2
+ALT: 28 | SPD:  7 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+479.0 13.0 2
+Tello: 00:16:23.999:  Info: set_yaw(val=-0.00)
+479.0 13.0 2
+479.0 13.0 2
+478.0 20.0 2
+Tello: 00:16:24.028:  Info: set_yaw(val=-0.01)
+478.0 20.0 2
+478.0 20.0 2
+481.0 28.0 2
+Tello: 00:16:24.057:  Info: set_yaw(val=0.00)
+481.0 28.0 2
+481.0 28.0 2
+479.0 39.0 2
+Tello: 00:16:24.086:  Info: set_yaw(val=-0.00)
+479.0 39.0 2
+479.0 39.0 2
+476.0 54.0 2
+Tello: 00:16:24.114:  Info: set_yaw(val=-0.02)
+Tello: 00:16:24.121:  Info: video recv: 1460 bytes fb00 +109
+476.0 54.0 2
+476.0 54.0 2
+Tello: 00:16:24.135:  Info: video data 724342 bytes 352.8KB/sec
+473.0 73.0 2
+Tello: 00:16:24.143:  Info: set_yaw(val=-0.03)
+473.0 73.0 2
+ALT: 28 | SPD: 13 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+473.0 73.0 2
+473.0 73.0 2
+468.0 87.0 2
+Tello: 00:16:24.181:  Info: set_yaw(val=-0.05)
+468.0 87.0 2
+478.0 26.0 2
+Tello: 00:16:24.204:  Info: set_yaw(val=-0.01)
+478.0 26.0 2
+ALT: 26 | SPD: 21 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+478.0 26.0 2
+472.0 106.0 2
+Tello: 00:16:24.234:  Info: set_yaw(val=-0.03)
+Tello: 00:16:24.234:  Info: set_throttle(val=0.91)
+472.0 106.0 2
+472.0 106.0 2
+469.0 119.0 2
+Tello: 00:16:24.264:  Info: set_yaw(val=-0.04)
+Tello: 00:16:24.264:  Info: set_throttle(val=0.84)
+469.0 119.0 2
+469.0 119.0 2
+478.0 78.0 2
+Tello: 00:16:24.291:  Info: set_yaw(val=-0.01)
+Tello: 00:16:24.291:  Info: set_throttle(val=1.00)
+478.0 78.0 2
+478.0 78.0 2
+ALT: 23 | SPD: 31 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+470.0 135.0 2
+Tello: 00:16:24.320:  Info: set_yaw(val=-0.04)
+Tello: 00:16:24.320:  Info: set_throttle(val=0.77)
+470.0 135.0 2
+470.0 135.0 2
+462.0 129.0 2
+Tello: 00:16:24.349:  Info: set_yaw(val=-0.07)
+Tello: 00:16:24.349:  Info: set_throttle(val=0.80)
+462.0 129.0 2
+462.0 129.0 2
+470.0 94.0 2
+Tello: 00:16:24.379:  Info: set_yaw(val=-0.04)
+Tello: 00:16:24.379:  Info: set_throttle(val=0.97)
+470.0 94.0 2
+470.0 94.0 2
+470.0 102.0 2
+Tello: 00:16:24.407:  Info: set_throttle(val=0.93)
+ALT: 20 | SPD: 40 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+470.0 102.0 2
+470.0 102.0 2
+474.0 110.0 2
+Tello: 00:16:24.437:  Info: set_yaw(val=-0.02)
+Tello: 00:16:24.437:  Info: set_throttle(val=0.89)
+474.0 110.0 2
+474.0 110.0 2
+466.0 118.0 2
+Tello: 00:16:24.466:  Info: set_yaw(val=-0.06)
+Tello: 00:16:24.466:  Info: set_throttle(val=0.85)
+466.0 118.0 2
+466.0 118.0 2
+470.0 126.0 2
+Tello: 00:16:24.496:  Info: set_yaw(val=-0.04)
+Tello: 00:16:24.496:  Info: set_throttle(val=0.81)
+470.0 126.0 2
+ALT: 15 | SPD: 49 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+470.0 126.0 2
+470.0 134.0 2
+Tello: 00:16:24.525:  Info: set_throttle(val=0.77)
+470.0 134.0 2
+470.0 134.0 2
+466.0 146.0 2
+Tello: 00:16:24.555:  Info: set_yaw(val=-0.06)
+Tello: 00:16:24.555:  Info: set_throttle(val=0.71)
+466.0 146.0 2
+466.0 146.0 2
+466.0 158.0 2
+Tello: 00:16:24.584:  Info: set_throttle(val=0.65)
+466.0 158.0 2
+466.0 158.0 2
+ALT: 10 | SPD: 57 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+446.0 182.0 2
+Tello: 00:16:24.614:  Info: set_yaw(val=-0.14)
+Tello: 00:16:24.614:  Info: set_throttle(val=0.53)
+446.0 182.0 2
+446.0 182.0 2
+458.0 174.0 2
+Tello: 00:16:24.644:  Info: set_yaw(val=-0.09)
+Tello: 00:16:24.644:  Info: set_throttle(val=0.57)
+458.0 174.0 2
+458.0 174.0 2
+458.0 190.0 2
+Tello: 00:16:24.675:  Info: set_throttle(val=0.49)
+458.0 190.0 2
+466.0 202.0 2
+Tello: 00:16:24.696:  Info: set_yaw(val=-0.06)
+Tello: 00:16:24.696:  Info: set_throttle(val=0.43)
+466.0 202.0 2
+ALT:  4 | SPD: 64 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+466.0 202.0 2
+462.0 206.0 2
+Tello: 00:16:24.726:  Info: set_yaw(val=-0.07)
+Tello: 00:16:24.726:  Info: set_throttle(val=0.41)
+462.0 206.0 2
+462.0 206.0 2
+470.0 226.0 2
+Tello: 00:16:24.755:  Info: set_yaw(val=-0.04)
+Tello: 00:16:24.755:  Info: set_throttle(val=0.31)
+470.0 226.0 2
+470.0 226.0 2
+474.0 246.0 2
+Tello: 00:16:24.787:  Info: set_yaw(val=-0.02)
+Tello: 00:16:24.787:  Info: set_throttle(val=0.21)
+474.0 246.0 2
+ALT:  0 | SPD: 57 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+474.0 274.0 2
+Tello: 00:16:24.808:  Info: set_throttle(val=0.07)
+474.0 274.0 2
+474.0 274.0 2
+474.0 290.0 2
+Tello: 00:16:24.838:  Info: set_throttle(val=-0.01)
+474.0 290.0 2
+474.0 290.0 2
+474.0 306.0 2
+Tello: 00:16:24.866:  Info: set_throttle(val=-0.09)
+474.0 306.0 2
+474.0 306.0 2
+470.0 322.0 2
+Tello: 00:16:24.898:  Info: set_yaw(val=-0.04)
+Tello: 00:16:24.898:  Info: set_throttle(val=-0.17)
+470.0 322.0 2
+ALT: -6 | SPD: 64 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+470.0 346.0 2
+Tello: 00:16:24.918:  Info: set_throttle(val=-0.29)
+470.0 346.0 2
+470.0 346.0 2
+466.0 366.0 2
+Tello: 00:16:24.947:  Info: set_yaw(val=-0.06)
+Tello: 00:16:24.947:  Info: set_throttle(val=-0.39)
+466.0 366.0 2
+466.0 366.0 2
+462.0 370.0 2
+Tello: 00:16:24.976:  Info: set_yaw(val=-0.07)
+Tello: 00:16:24.976:  Info: set_throttle(val=-0.41)
+462.0 370.0 2
+462.0 370.0 2
+470.0 390.0 2
+Tello: 00:16:25.005:  Info: set_yaw(val=-0.04)
+Tello: 00:16:25.005:  Info: set_throttle(val=-0.51)
+ALT: -10 | SPD: 51 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+470.0 390.0 2
+470.0 390.0 2
+454.0 422.0 2
+Tello: 00:16:25.035:  Info: set_yaw(val=-0.10)
+Tello: 00:16:25.035:  Info: set_throttle(val=-0.67)
+454.0 422.0 2
+454.0 422.0 2
+458.0 438.0 2
+Tello: 00:16:25.063:  Info: set_yaw(val=-0.09)
+Tello: 00:16:25.063:  Info: set_throttle(val=-0.75)
+458.0 438.0 2
+458.0 438.0 2
+454.0 450.0 2
+Tello: 00:16:25.093:  Info: set_yaw(val=-0.10)
+Tello: 00:16:25.093:  Info: set_throttle(val=-0.81)
+454.0 450.0 2
+446.0 478.0 2
+Tello: 00:16:25.114:  Info: set_yaw(val=-0.14)
+Tello: 00:16:25.114:  Info: set_throttle(val=-0.95)
+ALT: -13 | SPD: 47 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+446.0 478.0 2
+446.0 478.0 2
+462.0 442.0 2
+Tello: 00:16:25.143:  Info: set_yaw(val=-0.07)
+Tello: 00:16:25.143:  Info: set_throttle(val=-0.77)
+462.0 442.0 2
+462.0 442.0 2
+462.0 442.0 2
+314.0 458.0 2
+Tello: 00:16:25.180:  Info: set_yaw(val=-0.66)
+Tello: 00:16:25.180:  Info: set_throttle(val=-0.85)
+314.0 458.0 2
+314.0 250.0 2
+Tello: 00:16:25.200:  Info: set_yaw(val=-1.00)
+Tello: 00:16:25.200:  Info: set_throttle(val=0.19)
+142.0 250.0 2
+ALT: -16 | SPD: 45 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+142.0 250.0 2
+169.0 23.0 2
+Tello: 00:16:25.230:  Info: set_throttle(val=1.00)
+169.0 23.0 2
+169.0 23.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+935.0 59.0 2
+Tello: 00:16:25.318:  Info: set_yaw(val=1.00)
+ALT: -20 | SPD: 44 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+935.0 59.0 2
+935.0 59.0 2
+906.0 202.0 2
+Tello: 00:16:25.348:  Info: set_throttle(val=0.43)
+906.0 202.0 2
+906.0 202.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+-1.0 -1.0 2
+858.0 470.0 2
+Tello: 00:16:25.414:  Info: set_throttle(val=-0.91)
+858.0 470.0 2
+ALT: -23 | SPD: 44 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+858.0 470.0 2
+786.0 458.0 2
+Tello: 00:16:25.446:  Info: set_throttle(val=-0.85)
+786.0 458.0 2
+798.0 482.0 2
+Tello: 00:16:25.467:  Info: set_throttle(val=-0.97)
+798.0 482.0 2
+798.0 482.0 2
+798.0 482.0 2
+798.0 482.0 2
+798.0 482.0 2
+794.0 482.0 2
+ALT: -27 | SPD: 43 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+794.0 482.0 2
+794.0 482.0 2
+798.0 478.0 2
+Tello: 00:16:25.557:  Info: set_throttle(val=-0.95)
+798.0 478.0 2
+794.0 474.0 2
+Tello: 00:16:25.578:  Info: set_throttle(val=-0.93)
+794.0 474.0 2
+798.0 470.0 2
+Tello: 00:16:25.629:  Info: set_throttle(val=-0.91)
+ALT: -30 | SPD: 43 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+786.0 474.0 2
+Tello: 00:16:25.665:  Info: set_throttle(val=-0.93)
+798.0 470.0 2
+Tello: 00:16:25.697:  Info: set_throttle(val=-0.91)
+798.0 470.0 2
+ALT: -32 | SPD: 42 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+798.0 470.0 2
+778.0 474.0 2
+Tello: 00:16:25.795:  Info: set_throttle(val=-0.93)
+802.0 474.0 2
+ALT: -34 | SPD: 40 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+798.0 474.0 2
+794.0 478.0 2
+Tello: 00:16:25.900:  Info: set_throttle(val=-0.95)
+ALT: -36 | SPD: 39 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+794.0 478.0 2
+798.0 478.0 2
+794.0 478.0 2
+794.0 478.0 2
+ALT: -37 | SPD: 37 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  1
+790.0 478.0 2
+790.0 478.0 2
+798.0 470.0 2
+Tello: 00:16:26.132:  Info: set_throttle(val=-0.91)
+ALT: -36 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 00:16:26.159:  Info: video data 788857 bytes 380.6KB/sec
+794.0 474.0 2
+Tello: 00:16:26.169:  Info: set_throttle(val=-0.93)
+794.0 478.0 2
+Tello: 00:16:26.198:  Info: set_throttle(val=-0.95)
+794.0 478.0 2
+ALT: -36 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+782.0 474.0 2
+Tello: 00:16:26.270:  Info: set_throttle(val=-0.93)
+779.0 478.0 2
+Tello: 00:16:26.296:  Info: set_throttle(val=-0.95)
+777.0 467.0 2
+Tello: 00:16:26.337:  Info: set_throttle(val=-0.90)
+ALT: -35 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+777.0 467.0 2
+Tello: 00:16:26.367:  Info: set_throttle(val=-0.93)
+794.0 474.0 2
+ALT: -33 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 474.0 2
+798.0 478.0 2
+Tello: 00:16:26.469:  Info: set_throttle(val=-0.95)
+794.0 478.0 2
+ALT: -31 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 482.0 2
+Tello: 00:16:26.541:  Info: set_throttle(val=-0.97)
+798.0 478.0 2
+Tello: 00:16:26.568:  Info: set_throttle(val=-0.95)
+794.0 470.0 2
+Tello: 00:16:26.597:  Info: set_throttle(val=-0.91)
+ALT: -29 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+790.0 474.0 2
+Tello: 00:16:26.629:  Info: set_throttle(val=-0.93)
+802.0 474.0 2
+802.0 474.0 2
+ALT: -26 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 470.0 2
+Tello: 00:16:26.732:  Info: set_throttle(val=-0.91)
+798.0 478.0 2
+Tello: 00:16:26.764:  Info: set_throttle(val=-0.95)
+798.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+794.0 482.0 2
+Tello: 00:16:26.867:  Info: set_throttle(val=-0.97)
+802.0 474.0 2
+Tello: 00:16:26.895:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+802.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 478.0 2
+Tello: 00:16:27.021:  Info: set_throttle(val=-0.95)
+794.0 478.0 2
+802.0 474.0 2
+Tello: 00:16:27.089:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+794.0 478.0 2
+Tello: 00:16:27.135:  Info: set_throttle(val=-0.95)
+790.0 482.0 2
+Tello: 00:16:27.171:  Info: set_throttle(val=-0.97)
+794.0 478.0 2
+Tello: 00:16:27.203:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 478.0 2
+786.0 474.0 2
+Tello: 00:16:27.268:  Info: set_throttle(val=-0.93)
+798.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+786.0 478.0 2
+Tello: 00:16:27.335:  Info: set_throttle(val=-0.95)
+798.0 482.0 2
+Tello: 00:16:27.366:  Info: set_throttle(val=-0.97)
+786.0 474.0 2
+Tello: 00:16:27.401:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+786.0 474.0 2
+802.0 478.0 2
+Tello: 00:16:27.472:  Info: set_throttle(val=-0.95)
+794.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 470.0 2
+Tello: 00:16:27.541:  Info: set_throttle(val=-0.91)
+794.0 482.0 2
+Tello: 00:16:27.567:  Info: set_throttle(val=-0.97)
+794.0 478.0 2
+Tello: 00:16:27.603:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 478.0 2
+806.0 470.0 2
+Tello: 00:16:27.668:  Info: set_throttle(val=-0.91)
+806.0 470.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+806.0 478.0 2
+Tello: 00:16:27.735:  Info: set_throttle(val=-0.95)
+794.0 482.0 2
+Tello: 00:16:27.768:  Info: set_throttle(val=-0.97)
+798.0 470.0 2
+Tello: 00:16:27.809:  Info: set_throttle(val=-0.91)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 470.0 2
+798.0 470.0 2
+806.0 478.0 2
+Tello: 00:16:27.900:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+806.0 478.0 2
+806.0 478.0 2
+806.0 478.0 2
+794.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+Tello: 00:16:28.073:  Info: set_throttle(val=-0.93)
+798.0 470.0 2
+Tello: 00:16:28.100:  Info: set_throttle(val=-0.91)
+794.0 474.0 2
+Tello: 00:16:28.131:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 00:16:28.160:  Info: video data 751018 bytes 366.5KB/sec
+806.0 474.0 2
+798.0 482.0 2
+Tello: 00:16:28.198:  Info: set_throttle(val=-0.97)
+798.0 482.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 474.0 2
+Tello: 00:16:28.267:  Info: set_throttle(val=-0.93)
+798.0 478.0 2
+Tello: 00:16:28.301:  Info: set_throttle(val=-0.95)
+790.0 474.0 2
+Tello: 00:16:28.333:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+Tello: 00:16:28.373:  Info: set_throttle(val=-0.95)
+798.0 478.0 2
+798.0 482.0 2
+Tello: 00:16:28.451:  Info: set_throttle(val=-0.97)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+Tello: 00:16:28.508:  Info: set_throttle(val=-0.95)
+798.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 486.0 2
+Tello: 00:16:28.571:  Info: set_throttle(val=-0.99)
+798.0 486.0 2
+802.0 474.0 2
+Tello: 00:16:28.627:  Info: set_throttle(val=-0.93)
+802.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+Tello: 00:16:28.692:  Info: set_throttle(val=-0.95)
+798.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+786.0 478.0 2
+806.0 470.0 2
+Tello: 00:16:28.768:  Info: set_throttle(val=-0.91)
+798.0 478.0 2
+Tello: 00:16:28.803:  Info: set_throttle(val=-0.95)
+798.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+806.0 482.0 2
+Tello: 00:16:28.939:  Info: set_throttle(val=-0.97)
+798.0 482.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 482.0 2
+802.0 474.0 2
+Tello: 00:16:29.036:  Info: set_throttle(val=-0.93)
+798.0 478.0 2
+Tello: 00:16:29.073:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+798.0 482.0 2
+Tello: 00:16:29.149:  Info: set_throttle(val=-0.97)
+798.0 482.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 474.0 2
+Tello: 00:16:29.203:  Info: set_throttle(val=-0.93)
+802.0 474.0 2
+794.0 474.0 2
+794.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+Tello: 00:16:29.353:  Info: set_throttle(val=-0.95)
+802.0 474.0 2
+Tello: 00:16:29.386:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+798.0 470.0 2
+Tello: 00:16:29.446:  Info: set_throttle(val=-0.91)
+798.0 470.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 470.0 2
+798.0 478.0 2
+Tello: 00:16:29.539:  Info: set_throttle(val=-0.95)
+798.0 470.0 2
+Tello: 00:16:29.565:  Info: set_throttle(val=-0.91)
+798.0 478.0 2
+Tello: 00:16:29.610:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+802.0 478.0 2
+802.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+Tello: 00:16:29.734:  Info: set_throttle(val=-0.93)
+802.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+782.0 474.0 2
+802.0 478.0 2
+Tello: 00:16:29.872:  Info: set_throttle(val=-0.95)
+802.0 474.0 2
+Tello: 00:16:29.901:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+802.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 470.0 2
+Tello: 00:16:30.015:  Info: set_throttle(val=-0.91)
+798.0 470.0 2
+790.0 482.0 2
+Tello: 00:16:30.066:  Info: set_throttle(val=-0.97)
+794.0 470.0 2
+Tello: 00:16:30.102:  Info: set_throttle(val=-0.91)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 470.0 2
+Tello: 00:16:30.165:  Info: video data 755469 bytes 368.0KB/sec
+802.0 474.0 2
+Tello: 00:16:30.167:  Info: set_throttle(val=-0.93)
+802.0 474.0 2
+802.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+806.0 470.0 2
+Tello: 00:16:30.269:  Info: set_throttle(val=-0.91)
+786.0 494.0 2
+Tello: 00:16:30.299:  Info: set_throttle(val=-1.00)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+790.0 490.0 2
+790.0 490.0 2
+798.0 478.0 2
+Tello: 00:16:30.401:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+Tello: 00:16:30.434:  Info: set_throttle(val=-0.93)
+806.0 478.0 2
+Tello: 00:16:30.474:  Info: set_throttle(val=-0.95)
+790.0 490.0 2
+Tello: 00:16:30.502:  Info: set_throttle(val=-1.00)
+790.0 490.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+Tello: 00:16:30.567:  Info: set_throttle(val=-0.93)
+790.0 478.0 2
+Tello: 00:16:30.603:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+782.0 474.0 2
+Tello: 00:16:30.637:  Info: set_throttle(val=-0.93)
+794.0 482.0 2
+Tello: 00:16:30.668:  Info: set_throttle(val=-0.97)
+802.0 474.0 2
+Tello: 00:16:30.700:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 474.0 2
+802.0 474.0 2
+794.0 478.0 2
+Tello: 00:16:30.806:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 478.0 2
+798.0 474.0 2
+Tello: 00:16:30.868:  Info: set_throttle(val=-0.93)
+802.0 478.0 2
+Tello: 00:16:30.900:  Info: set_throttle(val=-0.95)
+778.0 474.0 2
+Tello: 00:16:30.934:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+Tello: 00:16:30.966:  Info: set_throttle(val=-0.95)
+798.0 470.0 2
+Tello: 00:16:31.011:  Info: set_throttle(val=-0.91)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 470.0 2
+798.0 478.0 2
+Tello: 00:16:31.068:  Info: set_throttle(val=-0.95)
+798.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+798.0 478.0 2
+790.0 490.0 2
+Tello: 00:16:31.205:  Info: set_throttle(val=-1.00)
+802.0 478.0 2
+Tello: 00:16:31.233:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 486.0 2
+Tello: 00:16:31.264:  Info: set_throttle(val=-0.99)
+798.0 478.0 2
+Tello: 00:16:31.305:  Info: set_throttle(val=-0.95)
+802.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 474.0 2
+Tello: 00:16:31.363:  Info: set_throttle(val=-0.93)
+798.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 478.0 2
+Tello: 00:16:31.429:  Info: set_throttle(val=-0.95)
+778.0 474.0 2
+Tello: 00:16:31.466:  Info: set_throttle(val=-0.93)
+778.0 474.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 474.0 2
+802.0 478.0 2
+Tello: 00:16:31.562:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 474.0 2
+Tello: 00:16:31.604:  Info: set_throttle(val=-0.93)
+798.0 478.0 2
+Tello: 00:16:31.636:  Info: set_throttle(val=-0.95)
+798.0 478.0 2
+798.0 478.0 2
+ALT:  0 | SPD:  1 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 474.0 2
+Tello: 00:16:31.729:  Info: set_throttle(val=-0.93)
+798.0 478.0 2
+Tello: 00:16:31.763:  Info: set_throttle(val=-0.95)
+806.0 482.0 2
+Tello: 00:16:31.797:  Info: set_throttle(val=-0.97)
+ALT:  0 | SPD:  1 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+806.0 482.0 2
+798.0 474.0 2
+Tello: 00:16:31.864:  Info: set_throttle(val=-0.93)
+798.0 474.0 2
+ALT:  0 | SPD:  1 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+790.0 490.0 2
+Tello: 00:16:31.928:  Info: set_throttle(val=-1.00)
+778.0 474.0 2
+Tello: 00:16:31.964:  Info: set_throttle(val=-0.93)
+778.0 474.0 2
+ALT:  0 | SPD:  1 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 478.0 2
+Tello: 00:16:32.039:  Info: set_throttle(val=-0.95)
+802.0 478.0 2
+798.0 486.0 2
+Tello: 00:16:32.101:  Info: set_throttle(val=-0.99)
+ALT:  0 | SPD:  1 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 486.0 2
+Tello: 00:16:32.165:  Info: video data 752636 bytes 367.5KB/sec
+802.0 478.0 2
+Tello: 00:16:32.181:  Info: set_throttle(val=-0.95)
+802.0 478.0 2
+ALT:  0 | SPD:  1 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 478.0 2
+798.0 482.0 2
+Tello: 00:16:32.265:  Info: set_throttle(val=-0.97)
+787.0 478.0 2
+Tello: 00:16:32.297:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  1 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 478.0 2
+794.0 478.0 2
+798.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 478.0 2
+794.0 478.0 2
+794.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 478.0 2
+790.0 474.0 2
+Tello: 00:16:32.569:  Info: set_throttle(val=-0.93)
+798.0 478.0 2
+Tello: 00:16:32.598:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+782.0 474.0 2
+Tello: 00:16:32.630:  Info: set_throttle(val=-0.93)
+794.0 486.0 2
+Tello: 00:16:32.663:  Info: set_throttle(val=-0.99)
+790.0 474.0 2
+Tello: 00:16:32.696:  Info: set_throttle(val=-0.93)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 474.0 2
+794.0 474.0 2
+794.0 478.0 2
+Tello: 00:16:32.797:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+794.0 478.0 2
+798.0 478.0 2
+798.0 478.0 2
+ALT:  0 | SPD:  0 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+798.0 486.0 2
+Tello: 00:16:32.937:  Info: set_throttle(val=-0.99)
+794.0 486.0 2
+786.0 478.0 2
+Tello: 00:16:33.007:  Info: set_throttle(val=-0.95)
+ALT:  0 | SPD: -2 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+786.0 478.0 2
+790.0 466.0 2
+Tello: 00:16:33.070:  Info: set_throttle(val=-0.89)
+782.0 446.0 2
+Tello: 00:16:33.111:  Info: set_throttle(val=-0.79)
+ALT:  0 | SPD: -5 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+802.0 466.0 2
+Tello: 00:16:33.138:  Info: set_throttle(val=-0.89)
+834.0 502.0 2
+Tello: 00:16:33.183:  Info: set_throttle(val=-1.00)
+826.0 694.0 2
+ALT:  1 | SPD: -10 | BAT: 56 | WIFI: 90 | CAM:  0 | MODE:  6
+826.0Sub-process start.
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: -1
+green
+R: 0
+green
+R: 87
+green
+R: 0
+green
+R: 0
+green
+R: 87
+green
+R: 0
+green
+R: 0
+green
+R: 92
+green
+R: 92
+green
+R: 84
+green
+R: 91
+green
+R: 91
+green
+R: 92
+green
+R: 91
+green
+R: 89
+green
+R: -1
+green
+R: 87
+green
+R: 88
+green
+R: 88
+green
+R: 86
+green
+R: 88
+green
+R: 90
+green
+R: 84
+green
+R: 83
+green
+R: 85
+green
+R: 82
+green
+R: 85
+green
+R: 85
+green
+R: 92
+green
+R: 85
+green
+R: 92
+green
+R: 92
+green
+R: 88
+green
+R: 92
+green
+R: 89
+green
+R: 93
+green
+R: 94
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: -1
+green
+R: 95
+green
+R: 92
+green
+R: 102
+green
+R: 102
+green
+R: 99
+green
+R: 98
+green
+R: 94
+green
+R: 98
+green
+R: 98
+green
+R: 97
+green
+R: 97
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 99
+green
+R: 91
+green
+R: 101
+green
+R: 101
+green
+R: 97
+green
+R: 106
+green
+R: 106
+green
+R: 98
+green
+R: 98
+green
+R: 96
+green
+R: 96
+green
+R: 96
+green
+R: 92
+green
+R: 92
+green
+R: 101
+green
+R: 98
+green
+R: 93
+green
+R: 93
+green
+R: 105
+green
+R: 93
+green
+R: 95
+green
+R: 95
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 100
+green
+R: 94
+green
+R: 97
+green
+R: 97
+green
+R: 97
+green
+R: 95
+green
+R: 96
+green
+R: 96
+green
+R: 97
+green
+R: 96
+green
+R: 92
+green
+R: 92
+green
+R: 101
+green
+R: 101
+green
+R: 101
+green
+R: 98
+green
+R: 97
+green
+R: 97
+green
+R: 98
+green
+R: 98
+green
+R: 99
+green
+R: 101
+green
+R: 101
+green
+R: 101
+green
+R: 101
+green
+R: 101
+green
+R: 94
+green
+R: 101
+green
+R: 106
+green
+R: 104
+green
+R: 93
+green
+R: 105
+green
+R: 106
+green
+R: 98
+green
+R: 98
+green
+R: 100
+green
+R: 103
+green
+R: 96
+green
+R: 96
+green
+R: 96
+green
+R: 96
+green
+R: 94
+green
+R: 102
+green
+R: 106
+green
+R: 103
+green
+R: 106
+green
+R: 106
+green
+R: 106
+green
+R: 96
+green
+R: 106
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 96
+green
+R: 96
+green
+R: 96
+green
+R: 96
+green
+R: 96
+green
+R: 97
+green
+R: 98
+green
+R: 94
+green
+R: 98
+green
+R: 92
+green
+R: 103
+green
+R: 97
+green
+R: 95
+green
+R: 95
+green
+R: 101
+green
+R: 92
+green
+R: 101
+green
+R: 101
+green
+R: 97
+green
+R: 102
+green
+R: 97
+green
+R: 105
+green
+R: 101
+green
+R: 97
+green
+R: 100
+green
+R: 106
+green
+R: 97
+green
+R: 97
+green
+R: 97
+green
+R: 98
+green
+R: 96
+green
+R: 102
+green
+R: 102
+green
+R: 96
+green
+R: 98
+green
+R: 98
+green
+R: 103
+green
+R: 103
+green
+R: 95
+green
+R: 96
+green
+R: 95
+green
+R: 95
+green
+R: 99
+green
+R: 98
+green
+R: 96
+green
+R: 99
+green
+R: 99
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 96
+green
+R: 97
+green
+R: 98
+green
+R: 96
+green
+R: 94
+green
+R: 98
+green
+R: 97
+green
+R: 97
+green
+R: 97
+green
+R: 99
+green
+R: 99
+green
+R: 105
+green
+R: 102
+green
+R: 102
+green
+R: 98
+green
+R: 97
+green
+R: 97
+green
+R: 97
+green
+R: 106
+green
+R: 107
+green
+R: 102
+green
+R: 102
+green
+R: 98
+green
+R: 94
+green
+R: 97
+green
+R: 102
+green
+R: 102
+green
+R: 102
+green
+R: 102
+green
+R: 98
+green
+R: 97
+green
+R: 93
+green
+R: 102
+green
+R: 102
+green
+R: 102
+green
+R: 95
+green
+R: 95
+green
+R: 99
+green
+R: 98
+green
+R: 92
+green
+R: 92
+green
+R: 99
+green
+R: 99
+green
+R: 99
+green
+R: 99
+green
+R: 98
+green
+R: 99
+green
+R: 99
+green
+R: 102
+green
+R: 98
+green
+R: 111
+green
+R: 102
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 92
+green
+R: 92
+green
+R: 92
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 94
+green
+R: 94
+green
+R: 98
+green
+R: 97
+green
+R: 97
+green
+R: 104
+green
+R: 98
+green
+R: 98
+green
+R: 98
+green
+R: 100
+green
+R: 92
+green
+R: 92
+green
+R: 96
+green
+R: 96
+green
+R: 96
+green
+R: 96
+green
+R: 104
+green
+R: 104
+green
+R: 96
+green
+R: 96
+green
+R: 98
+green
+R: 101
+green
+R: 101
+green
+R: 0
+green
+R: 99
+green
+R: 100
+green
+R: 99
+green
+R: 99
+green
+R: 100
+green
+R: 100
+green
+R: 100
+green
+R: 99
+green
+R: 99
+green
+R: 95
+green
+R: 95
+green
+R: 100
+green
+R: 96
+green
+R: 105
+green
+R: 105
+green
+R: 95
+green
+R: 100
+green
+R: 100
+green
+R: 102
+green
+R: 100
+green
+R: 100
+green
+R: 100
+green
+R: 99
+green
+R: 97
+green
+R: 104
+green
+R: 104
+green
+R: 106
+green
+R: 101
+green
+R: 101
+green
+R: 101
+green
+R: 100
+green
+R: 98
+green
+R: 94
+green
+R: 103
+green
+R: 108
+green
+R: 108
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 177
+green
+R: 78
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 42
+green
+R: 42
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 49
+green
+R: 46
+green
+R: 46
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 51
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 68
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: 0
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: -1
+green
+R: 0
+green
+R: 0
+green
+R: 95

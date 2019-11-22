@@ -1,0 +1,3497 @@
+Tello: 16:35:47.760:  Info: start video thread
+Tello: 16:35:47.761:  Info: send connection request (cmd="conn_req:9617")
+Tello: 16:35:47.761:  Info: video receive buffer size = 425984
+Tello: 16:35:47.761:  Info: state transit State::disconnected -> State::connecting
+Tello: 16:35:47.809:  Info: connected. (port=9617)
+Tello: 16:35:47.809:  Info: send_time (cmd=0x46 seq=0x01e4)
+Tello: 16:35:47.809:  Info: state transit State::connecting -> State::connected
+Tello: 16:35:47.810:  Info: get video stream
+Tello: 16:35:47.810:  Info: start video (cmd=0x25 seq=0x01e4)
+Tello: 16:35:47.860:  Info: recv: ack: cmd=0x34 seq=0x0000 cc 60 00 27 90 34 00 00 00 00 72 a5
+Tello: 16:35:47.861:  Info: recv: ack: cmd=0x20 seq=0x0000 cc 60 00 27 b0 20 00 00 00 00 42 b9
+Tello: 16:35:47.862:  Info: recv: ack: cmd=0x34 seq=0x0000 cc 60 00 27 90 34 00 00 00 00 72 a5
+Tello: 16:35:47.862:  Info: recv: ack: cmd=0x20 seq=0x0000 cc 60 00 27 b0 20 00 00 00 00 42 b9
+Tello: 16:35:50.769:  Info: video data 840090 bytes 408.7KB/sec
+Tello: 16:35:52.770:  Info: video data 751172 bytes 366.5KB/sec
+Tello: 16:35:54.775:  Info: video data 752505 bytes 366.5KB/sec
+Tello: 16:35:56.777:  Info: video data 753955 bytes 367.8KB/sec
+ALT:  0 | SPD:  0 | BAT: 82 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  0 | SPD:  0 | BAT: 82 | WIFI: 90 | CAM:  0 | MODE:  6
+ALT:  0 | SPD:  0 | BAT: 82 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 82 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 82 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 82 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 82 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+Tello: 16:35:58.777:  Info: video data 754110 bytes 368.2KB/sec
+ALT:  0 | SPD:  0 | BAT: 82 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+Tello: 16:36:00.783:  Info: video data 753978 bytes 367.2KB/sec
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+Tello: 16:36:02.785:  Info: video data 749568 bytes 365.6KB/sec
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6Sub-process start.
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:0
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:0
+mission:0
+mission:-1
+Tello: 16:36:04.082:  Info: set altitude limit 30m
+Tello: 16:36:04.082:  Info: takeoff (cmd=0x54 seq=0x01e4)
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  6
+Tello: 16:36:04.085:  Info: recv: ack: cmd=0x54 seq=0x0000 cc 60 00 27 b0 54 00 00 00 00 a1 81
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+Tello: 16:36:04.787:  Info: video data 748564 bytes 365.1KB/sec
+ALT:  0 | SPD: -2 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD: -5 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  0 | SPD: -7 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  1 | SPD: -8 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  2 | SPD: -8 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  3 | SPD: -8 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  4 | SPD: -8 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  5 | SPD: -8 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  6 | SPD: -7 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  6 | SPD: -6 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  7 | SPD: -5 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  7 | SPD: -5 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  8 | SPD: -4 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+ALT:  8 | SPD: -3 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+mission:1
+Tello: 16:36:06.095:  Info: set_throttle(val=0.10)
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT:  9 | SPD: -3 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT:  9 | SPD: -2 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE: 11
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT:  9 | SPD: -2 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD: -1 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD: -1 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+Tello: 16:36:06.788:  Info: video data 751052 bytes 366.5KB/sec
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+Tello: 16:36:07.526:  Info: video recv: 1460 bytes 6305 +113
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+Tello: 16:36:07.669:  Info: video recv: 1460 bytes 6506 +112
+mission:1
+mission:1
+Tello: 16:36:07.820:  Info: video recv: 1460 bytes 6800 +124
+mission:1
+mission:1
+Tello: 16:36:07.972:  Info: video recv: 1460 bytes 6a05 +118
+mission:1
+mission:1
+Tello: 16:36:08.122:  Info: video recv: 1460 bytes 6c06 +124
+mission:1
+mission:1
+Tello: 16:36:08.274:  Info: video recv: 1460 bytes 6f01 +126
+mission:1
+mission:1
+Tello: 16:36:08.486:  Info: video recv: 1460 bytes 7301 +116
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 81 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+Tello: 16:36:08.733:  Info: video recv: 1460 bytes 7b03 +132
+mission:1
+Tello: 16:36:08.860:  Info: video recv: 1460 bytes 7e05 +115
+Tello: 16:36:08.861:  Info: video data 506028 bytes 238.5KB/sec loss=49
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 80 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+Tello: 16:36:09.023:  Info: video recv: 1460 bytes 8403 +113
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 80 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 80 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+Tello: 16:36:09.330:  Info: video recv: 1460 bytes 9407 +114
+mission:1
+mission:1
+Tello: 16:36:09.491:  Info: video recv: 1460 bytes 9802 +132
+Tello: 16:36:09.656:  Info: video recv: 1460 bytes 9807 +134
+mission:1
+ALT: 10 | SPD:  0 | BAT: 80 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 16:36:09.784:  Info: video recv: 1460 bytes 9a01 +118
+mission:1
+Tello: 16:36:09.946:  Info: video recv: 1460 bytes 9c02 +117
+mission:1
+mission:1
+Tello: 16:36:10.089:  Info: video recv: 1460 bytes 9e07 +116
+mission:1
+mission:1
+mission:1
+Tello: 16:36:10.253:  Info: video recv: 1460 bytes a106 +116
+mission:1
+mission:1
+mission:1
+Tello: 16:36:10.396:  Info: video recv: 1460 bytes a504 +115
+mission:1
+mission:1
+mission:1
+Tello: 16:36:10.558:  Info: video recv: 1460 bytes ae06 +115
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 80 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 80 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+Tello: 16:36:10.862:  Info: video data 618552 bytes 301.7KB/sec loss=237
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+waitting for takeoff.
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+green
+
+ALT: 10 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 79 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+Tello: 16:36:12.869:  Info: video data 754699 bytes 367.3KB/sec
+mission:1
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 78 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+Tello: 16:36:14.872:  Info: video data 754091 bytes 367.7KB/sec
+mission:1
+ALT: 11 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+ALT: 12 | SPD: -1 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD: -1 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD: -1 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD: -1 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD: -1 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+ALT: 13 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  6
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 13 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 77 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+Tello: 16:36:16.873:  Info: video data 751024 bytes 366.5KB/sec
+mission:1
+ALT: 12 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 76 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+Tello: 16:36:18.874:  Info: video data 752634 bytes 367.3KB/sec
+mission:1
+ALT: 10 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 10 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+ALT: 11 | SPD:  0 | BAT: 75 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  1
+Tello: 16:36:20.886:  Info: video data 746716 bytes 362.5KB/sec
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  1
+mission:1
+mission:1
+mission:1
+ALT: 12 | SPD:  0 | BAT: 74 | WIFI: 90 | CAM:  0 | MODE:  1

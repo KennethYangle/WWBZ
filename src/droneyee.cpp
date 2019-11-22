@@ -36,7 +36,6 @@ float geuler_angle_degree;
 float velocity_uvw[3];
 //Telemetry::Quaternion gQuaternion;
 float eRb[3][3];
-float home_yaw;
 int64_t init_time; 
 //height control PID parameters
 float Kp_height = 1.0f;
@@ -90,10 +89,10 @@ inline int64_t getCurrentTime()
 
 inline float Saturation_yaw(float y)
 {
-    if (y > 45.0f)
-        return 45.0f;
-    else if (y < -45.0f)
-        return -45.0f;
+    if (y > 30.0f)
+        return 30.0f;
+    else if (y < -30.0f)
+        return -30.0f;
     else
         return y;
 }
@@ -106,28 +105,6 @@ inline float Saturation_height(float h)
         return -1.0f;
     else
         return h;
-}
-
-inline void height_ctrl(std::shared_ptr<mavsdk::Offboard> offboard, float roll, float pitch, float yaw_rate, float z_d, float delta_T)
-{
-    static float vz_inter = 0.0f;
-    static float yaw_ = home_yaw;
-    float position_down = gposition_ned_down_m;
-    float v_d = Kp_height*(z_d - position_down);
-    float velocity_down = gvelocity_ned_down_m_s;
-    float e_vz = -(v_d - velocity_down);
-
-    vz_inter = vz_inter + e_vz*0.02f;
-    if (vz_inter > 0.2f)  vz_inter = 0.2f;
-    if (vz_inter < -0.2f)  vz_inter = -0.2f;
-    float thrust = (Kp_vz*e_vz + Ki_vz*vz_inter)+ 0.5f;
-    if (thrust > 1.0f) thrust = 1.0f;
-    if (thrust < 0.0f) thrust = 0.0f;
-
-    yaw_ = yaw_ + Kp_yaw*yaw_rate*delta_T;
-    offboard->set_attitude({roll, pitch, yaw_, thrust});
-    std::cout << "Current_Time: " << getCurrentTime() - init_time << ", ";
-    std::cout << "set_roll: " << roll << ", set_pitch: " << pitch << ", set_yaw: " << yaw_ << ", set_thrust: " << thrust << std::endl;
 }
 
 inline void vel_ctrl(std::shared_ptr<mavsdk::Offboard> offboard, float vu, float vv, float delta_height, float yaw_rate)
@@ -151,61 +128,54 @@ inline void vel_ctrl(std::shared_ptr<mavsdk::Offboard> offboard, float vu, float
     std::cout << "set_vu: " << vu << ", set_vv: " << vv << ", set_yawrate: " << yaw_rate << ", set_vd: " << v_d << std::endl;
 }
 
-// inline void height_ctrl(std::shared_ptr<mavsdk::Offboard> offboard, float roll, float pitch, float yaw, float z_d)
-// {
-//     z_d++;
-//     offboard->set_attitude_rate({roll, pitch, yaw, 0.5});
-//     std::cout << "roll: " << roll << ", pitch: " << pitch << ", yaw: " << yaw << ", thrust: " << 0.6 << std::endl;
-// }
-
 void print_pos_vel(Telemetry::PositionVelocityNED position_velocity_ned)
 {
     gposition_ned_down_m = position_velocity_ned.position.down_m;
-    std::cout << "Current_Time: " << getCurrentTime() - init_time << ", ";
-    std::cout << "pos_n: " << position_velocity_ned.position.north_m 
-              << ", pos_e: " << position_velocity_ned.position.east_m
-              << ", pos_d: " << gposition_ned_down_m << ", ";
+    // std::cout << "Current_Time: " << getCurrentTime() - init_time << ", ";
+    // std::cout << "pos_n: " << position_velocity_ned.position.north_m 
+    //           << ", pos_e: " << position_velocity_ned.position.east_m
+    //           << ", pos_d: " << gposition_ned_down_m << ", ";
     gvelocity_ned_down_m_s = position_velocity_ned.velocity.down_m_s;
-    std::cout << "vel_n: " << position_velocity_ned.velocity.north_m_s 
-              << ", vel_e: " << position_velocity_ned.velocity.east_m_s
-              << ", vel_d: " << gvelocity_ned_down_m_s << ", ";
-    velocity_uvw[0] = eRb[0][0]*position_velocity_ned.velocity.north_m_s + eRb[1][0]*position_velocity_ned.velocity.east_m_s + eRb[2][0]*position_velocity_ned.velocity.down_m_s;
-    velocity_uvw[1] = eRb[0][1]*position_velocity_ned.velocity.north_m_s + eRb[1][1]*position_velocity_ned.velocity.east_m_s + eRb[2][1]*position_velocity_ned.velocity.down_m_s;
-    velocity_uvw[2] = eRb[0][2]*position_velocity_ned.velocity.north_m_s + eRb[1][2]*position_velocity_ned.velocity.east_m_s + eRb[2][2]*position_velocity_ned.velocity.down_m_s;
-    std::cout << "vel_u: " <<   velocity_uvw[0] 
-              << ", vel_v: " << velocity_uvw[1]
-              << ", vel_w: " << velocity_uvw[2] << std::endl;
+    // std::cout << "vel_n: " << position_velocity_ned.velocity.north_m_s 
+    //           << ", vel_e: " << position_velocity_ned.velocity.east_m_s
+    //           << ", vel_d: " << gvelocity_ned_down_m_s << ", ";
+    // velocity_uvw[0] = eRb[0][0]*position_velocity_ned.velocity.north_m_s + eRb[1][0]*position_velocity_ned.velocity.east_m_s + eRb[2][0]*position_velocity_ned.velocity.down_m_s;
+    // velocity_uvw[1] = eRb[0][1]*position_velocity_ned.velocity.north_m_s + eRb[1][1]*position_velocity_ned.velocity.east_m_s + eRb[2][1]*position_velocity_ned.velocity.down_m_s;
+    // velocity_uvw[2] = eRb[0][2]*position_velocity_ned.velocity.north_m_s + eRb[1][2]*position_velocity_ned.velocity.east_m_s + eRb[2][2]*position_velocity_ned.velocity.down_m_s;
+    // std::cout << "vel_u: " <<   velocity_uvw[0] 
+    //           << ", vel_v: " << velocity_uvw[1]
+    //           << ", vel_w: " << velocity_uvw[2] << std::endl;
 }
 
-void print_euler(Telemetry::EulerAngle euler_angle)
-{
-    geuler_angle_degree = euler_angle.yaw_deg;
-    std::cout << "Current_Time: " << getCurrentTime() - init_time << ", ";
-    std::cout << "roll_angle: " << euler_angle.roll_deg
-              << ", pitch_angle: " << euler_angle.pitch_deg
-              << ", yaw_angle: " << geuler_angle_degree << std::endl;
-}
+// void print_euler(Telemetry::EulerAngle euler_angle)
+// {
+//     geuler_angle_degree = euler_angle.yaw_deg;
+//     std::cout << "Current_Time: " << getCurrentTime() - init_time << ", ";
+//     std::cout << "roll_angle: " << euler_angle.roll_deg
+//               << ", pitch_angle: " << euler_angle.pitch_deg
+//               << ", yaw_angle: " << geuler_angle_degree << std::endl;
+// }
 
-void print_ang_rate(Telemetry::AngularVelocityBody angular_velocity_body)
-{
-    std::cout << "Current_Time: " << getCurrentTime() - init_time << ", ";
-    std::cout << "roll_rate: " << angular_velocity_body.roll_rad_s
-              << ", pitch_rate: " << angular_velocity_body.pitch_rad_s
-              << ", yaw_rate: " << angular_velocity_body.yaw_rad_s << std::endl;
-}
+// void print_ang_rate(Telemetry::AngularVelocityBody angular_velocity_body)
+// {
+//     std::cout << "Current_Time: " << getCurrentTime() - init_time << ", ";
+//     std::cout << "roll_rate: " << angular_velocity_body.roll_rad_s
+//               << ", pitch_rate: " << angular_velocity_body.pitch_rad_s
+//               << ", yaw_rate: " << angular_velocity_body.yaw_rad_s << std::endl;
+// }
 
-void print_quat(Telemetry::Quaternion quat)
-{
-    eRb[0][0] = quat.w*quat.w + quat.x*quat.x - quat.y*quat.y - quat.z*quat.z;
-    eRb[0][1] = 2*(quat.x*quat.y - quat.w*quat.z);
-    eRb[0][2] = 2*(quat.x*quat.z + quat.w*quat.y);
-    eRb[1][0] = 2*(quat.x*quat.y + quat.w*quat.z);
-    eRb[1][1] = quat.w*quat.w - quat.x*quat.x + quat.y*quat.y - quat.z*quat.z;
-    eRb[1][2] = 2*(quat.y*quat.z - quat.w*quat.x);
-    eRb[2][0] = 2*(quat.x*quat.z - quat.w*quat.y);
-    eRb[2][1] = 2*(quat.y*quat.z + quat.w*quat.x);
-    eRb[2][2] = quat.w*quat.w - quat.x*quat.x - quat.y*quat.y + quat.z*quat.z;
-}
+// void print_quat(Telemetry::Quaternion quat)
+// {
+//     eRb[0][0] = quat.w*quat.w + quat.x*quat.x - quat.y*quat.y - quat.z*quat.z;
+//     eRb[0][1] = 2*(quat.x*quat.y - quat.w*quat.z);
+//     eRb[0][2] = 2*(quat.x*quat.z + quat.w*quat.y);
+//     eRb[1][0] = 2*(quat.x*quat.y + quat.w*quat.z);
+//     eRb[1][1] = quat.w*quat.w - quat.x*quat.x + quat.y*quat.y - quat.z*quat.z;
+//     eRb[1][2] = 2*(quat.y*quat.z - quat.w*quat.x);
+//     eRb[2][0] = 2*(quat.x*quat.z - quat.w*quat.y);
+//     eRb[2][1] = 2*(quat.y*quat.z + quat.w*quat.x);
+//     eRb[2][2] = quat.w*quat.w - quat.x*quat.x - quat.y*quat.y + quat.z*quat.z;
+// }
 
 bool offb_ctrl_servo(std::shared_ptr<mavsdk::Offboard> offboard)
 {
@@ -233,17 +203,16 @@ bool offb_ctrl_servo(std::shared_ptr<mavsdk::Offboard> offboard)
 
     offboard->set_velocity_body({0.0f, 0.0f, 0.0f, 0.0f});
 
-    const std::string offb_mode = "ATTITUDE";
     while (1)
     {
-        if (land_cnt >= 50) return true;
+        // if (land_cnt >= 50) return true;
         csm.GetFromShareMem(buffer, length);
-        if (buffer[0] < 0)
-        {
-            land_cnt++;
-            sleep_for(milliseconds(10));
-            continue;
-        }
+        // if (buffer[0] < 0)
+        // {
+        //     land_cnt++;
+        //     sleep_for(milliseconds(10));
+        //     continue;
+        // }
         land_cnt = 0;
         double ex = buffer[0] - width / 2;
         double ey = buffer[1] - height / 2;
@@ -253,14 +222,14 @@ bool offb_ctrl_servo(std::shared_ptr<mavsdk::Offboard> offboard)
             std::cout << buffer[i] << ", ";
         }
         std::cout << std::endl;
-        // sleep_for(milliseconds(20));
+        sleep_for(milliseconds(20));
 
         // offboard->set_attitude_rate({0.0f, pitch_rate, k_yaw * (float)ex, k_thrust * (float)ey});
         // set_velocity_body(VelocityBodyYawspeed), {forward_m_s, right_m_s, down_m_s, yawspeed_deg_s}
         // offboard->set_velocity_body({0.0f, 0.0f, Saturation_height(Kp_servo_height*ey), Saturation_yaw(Kp_servo_yaw*ex)});
         // inline void vel_ctrl(std::shared_ptr<mavsdk::Offboard> offboard, float vu, float vv, float delta_height, float yaw_rate)
-        vel_ctrl(offboard, 0.3f, 0.0f, Saturation_height(Kp_servo_height*ey), Saturation_yaw(Kp_servo_yaw*ex));
-        std::cout << "vel_ctrl: " << 0.0f << ", " << 0.0f << ", " << Saturation_height(Kp_servo_height*ey) << ", " << Saturation_yaw(Kp_servo_yaw*ex) << std::endl;
+        vel_ctrl(offboard, 0.5f, 0.0f, Saturation_height(Kp_servo_height*ey), Saturation_yaw(Kp_servo_yaw*ex));
+        std::cout << "vel_ctrl: " << 0.5f << ", " << 0.0f << ", " << Saturation_height(Kp_servo_height*ey) << ", " << Saturation_yaw(Kp_servo_yaw*ex) << std::endl;
         sleep_for(milliseconds(20));
     }
     return true;
@@ -288,9 +257,7 @@ int main(int argc, char** argv)
         return 1;
     }
 
-    // We don't need to specify the UUID if it's only one system anyway.
-    // If there were multiple, we could specify it with:
-    // dc.system(uint64_t uuid);
+    // If there were multiple, we could specify it with: dc.system(uint64_t uuid);
     System& system = dc.system();
 
     std::cout << "Waiting to discover system..." << std::endl;
@@ -299,8 +266,7 @@ int main(int argc, char** argv)
         discovered_system = true;
     });
 
-    // We usually receive heartbeats at 1Hz, therefore we should find a system after around 2
-    // seconds.
+    // We usually receive heartbeats at 1Hz, therefore we should find a system after around 2 seconds.
     sleep_for(seconds(2));
 
     if (!discovered_system) {
@@ -309,8 +275,7 @@ int main(int argc, char** argv)
         return 1;
     }
 
-    // Register a callback so we get told when components (camera, gimbal) etc
-    // are found.
+    // Register a callback so we get told when components (camera, gimbal) etc are found.
     system.register_component_discovered_callback(component_discovered);
 
     auto telemetry = std::make_shared<Telemetry>(system);
@@ -326,19 +291,23 @@ int main(int argc, char** argv)
         return 1;
     }
 
+    ///update states
+    init_time = getCurrentTime();
+    telemetry->position_velocity_ned_async(print_pos_vel);
+    // telemetry->attitude_euler_angle_async(print_euler);
+    // telemetry->attitude_angular_velocity_body_async(print_ang_rate);
+    // telemetry->attitude_quaternion_async(print_quat);
+
     // Check if vehicle is ready to arm
     while (telemetry->health_all_ok_NOGPS() != true) {
         std::cout << "Vehicle is getting ready to arm" << std::endl;
-
         sleep_for(seconds(1));
     }
-
     std::cout << telemetry->health_all_ok_NOGPS() << std::endl;
 
     // Arm vehicle
     std::cout << "Arming..." << std::endl;
     Action::Result arm_result = action->arm();
-
     if (arm_result != Action::Result::SUCCESS) {
         std::cout << ERROR_CONSOLE_TEXT << "Arming failed:" << Action::result_str(arm_result)
                   << NORMAL_CONSOLE_TEXT << std::endl;
@@ -350,27 +319,13 @@ int main(int argc, char** argv)
 		std::cout << "Arm success!" << std::endl;
 	}
 
-    ///update states
-    init_time = getCurrentTime();
-    telemetry->position_velocity_ned_async(print_pos_vel);
-    telemetry->attitude_euler_angle_async(print_euler);
-    telemetry->attitude_angular_velocity_body_async(print_ang_rate);
-    telemetry->attitude_quaternion_async(print_quat);
-    ///
-    home_yaw = geuler_angle_degree;
-    while (fabs(home_yaw) < 0.00001f)
-    {
-        home_yaw = geuler_angle_degree;
-        std::cout << "Waitting..." << std::endl;
-        sleep_for(milliseconds(100));
-    }
-    std::cout << "Got home yaw: " << home_yaw << std::endl;
-
+    
     // takeoff
     arm_result = action->takeoff();	
+    std::cout << "start takeoff" << std::endl;
     sleep_for(seconds(5));
+    std::cout << "takeoff finish" << std::endl;
 
-	std::string offb_mode = "ATTITUDE";
     
 
     // Send it once before starting offboard, otherwise it will be rejected.
@@ -379,95 +334,17 @@ int main(int argc, char** argv)
     // start offboard mode
     Offboard::Result offboard_result = offboard->start();
     offboard_error_exit(offboard_result, "Offboard start failed");
-    offboard_log(offb_mode, "Offboard started");
-    // std::cout << "set_roll: " << 0.0f << ", set_pitch: " << -10.0f << ", set_yaw: " << 0.0f << ", set_height: " << -1.5f << std::endl;
-    
+
+    // start visual servo
+    std::cout << "Start visual servo" << std::endl;
     offb_ctrl_servo(offboard);
+    std::cout << "End visual servo" << std::endl;
     
-    
-    
-    // for (size_t i = 0; i < 40; i++)
-    // {
-    //     static int64_t time_last = getCurrentTime(), time_now;
-    //     time_now = getCurrentTime();
-    //     float delta_T = (time_now - time_last)*0.001f;
-    //     time_last = time_now;
-    //     if(delta_T < 0.0f) delta_T = 0.0f;
-    //     if(delta_T > 1.0f) delta_T = 1.0f;
-    //     vel_ctrl(offboard, 0.0f, -0.0f, 0.0f, -1.0f);
-    //     sleep_for(milliseconds(50)); 
-    //     std::cout << "i: " << i << std::endl;
-    // }
-    // for (size_t i = 0; i < 100; i++)
-    // {
-    //     static int64_t time_last = getCurrentTime(), time_now;
-    //     time_now = getCurrentTime();
-    //     float delta_T = (time_now - time_last)*0.001f;
-    //     time_last = time_now;
-    //     if(delta_T < 0.0f) delta_T = 0.0f;
-    //     if(delta_T > 1.0f) delta_T = 1.0f;
-    //     vel_ctrl(offboard, 0.0f, -1.0f, 0.0f, -1.0f);
-    //     sleep_for(milliseconds(50)); 
-    //     std::cout << "i: " << i << std::endl;
-    // }
-    // for (size_t i = 0; i < 100; i++)
-    // {
-    //     static int64_t time_last = getCurrentTime(), time_now;
-    //     time_now = getCurrentTime();
-    //     float delta_T = (time_now - time_last)*0.001f;
-    //     time_last = time_now;
-    //     if(delta_T < 0.0f) delta_T = 0.0f;
-    //     if(delta_T > 1.0f) delta_T = 1.0f;
-    //     vel_ctrl(offboard, -0.0f, 1.0f, 0.0f, -1.0f);
-    //     sleep_for(milliseconds(50)); 
-    //     std::cout << "i: " << i << std::endl;
-    // }
-    // for (size_t i = 0; i < 40; i++)
-    // {
-    //     static int64_t time_last = getCurrentTime(), time_now;
-    //     time_now = getCurrentTime();
-    //     float delta_T = (time_now - time_last)*0.001f;
-    //     time_last = time_now;
-    //     if(delta_T < 0.0f) delta_T = 0.0f;
-    //     if(delta_T > 1.0f) delta_T = 1.0f;
-    //     vel_ctrl(offboard, 0.0f, -0.0f, 0.0f, -1.0f);
-    //     sleep_for(milliseconds(50)); 
-    //     std::cout << "i: " << i << std::endl;
-    // }
-    
-
-
-    // // std::cout << "set_roll: " << 0.0f << ", set_pitch: " << -10.0f << ", set_yaw: " << 0.0f << ", set_height: " << -1.5f << std::endl;
-    // for (size_t i = 0; i < 40; i++)
-    // {
-    //     static int64_t time_last = getCurrentTime(), time_now;
-    //     time_now = getCurrentTime();
-    //     float delta_T = (time_now - time_last)*0.001f;
-    //     time_last = time_now;
-    //     if(delta_T < 0.0f) delta_T = 0.0f;
-    //     if(delta_T > 1.0f) delta_T = 1.0f;
-    //     height_ctrl(offboard, 0.0f, -0.0f, 0.0f, -1.0f, delta_T);
-    //     sleep_for(milliseconds(50)); 
-    //     std::cout << "i: " << i << std::endl;
-    // }
-    // for (size_t i = 0; i < 60; i++)
-    // {
-    //     static int64_t time_last = getCurrentTime(), time_now;
-    //     time_now = getCurrentTime();
-    //     float delta_T = (time_now - time_last)*0.001f;
-    //     time_last = time_now;
-    //     if(delta_T < 0.0f) delta_T = 0.0f;
-    //     if(delta_T > 1.0f) delta_T = 1.0f;
-    //     height_ctrl(offboard, 0.0f, -10.0f, 0.0f, -1.0f, delta_T);
-    //     sleep_for(milliseconds(50)); 
-    //     std::cout << "i: " << i << std::endl;
-    // }
 
 
     // Now, stop offboard mode.
     offboard_result = offboard->stop();
     offboard_error_exit(offboard_result, "Offboard stop failed: ");
-    offboard_log(offb_mode, "Offboard stopped");
 
 
     std::cout << "Landing..." << std::endl;

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <time.h>
 #include <opencv2/opencv.hpp>
 #include "rapidjson/document.h"
 #include "share_memory.h"
@@ -24,6 +25,8 @@ void createGammaTable(const double gamma_)
 
 int main(int argc, char **argv)
 {
+    bool is_save_video = true;
+
     // parse args
     if (argc > 2)
     {
@@ -89,6 +92,18 @@ int main(int argc, char **argv)
     double frame_time = 1000.0 / frame_fps;
     cout << "frame time: " << frame_time << endl;
 
+    // video writer
+    char path[100];
+    time_t currTime;
+    struct tm *mt;
+    currTime = time(NULL);
+    mt = localtime(&currTime);
+    sprintf(path, "./capture/%d%02d%02d%02d%02d%02d.avi", mt->tm_year + 1900, mt->tm_mon + 1, mt->tm_mday, mt->tm_hour, mt->tm_min, mt->tm_sec);
+    cout << "video save in: " << path << endl;
+    VideoWriter writer(path, CV_FOURCC('D', 'I', 'V', 'X'), frame_fps, 
+        Size(cap.get(CV_CAP_PROP_FRAME_WIDTH), 
+        cap.get(CV_CAP_PROP_FRAME_HEIGHT)), true);
+
     // creat table before processing
     createGammaTable(document["image_processing"]["gamma"].GetDouble());
     cout << "creat gamma table success" << endl;
@@ -134,6 +149,8 @@ int main(int argc, char **argv)
     u32 length = sizeof(buffer);
     
     // image processing
+    try
+    {
     while (true)
     {
         double tic = static_cast<double>(getTickCount());
@@ -198,10 +215,16 @@ int main(int argc, char **argv)
                 buffer[0] = -4; buffer[1] = -4;
                 buffer[2] = -4; buffer[3] = -4;
                 csm.PutToShareMem(buffer, length);
+                printf("%.2f, %.2f\n", buffer[0], buffer[1]);
             }
         }
 
         imshow("video", gamma_img);
+        // save video
+        if (is_save_video)
+        {
+            writer << gamma_img;
+        }
 
         // keep frame rate
         double toc = static_cast<double>(getTickCount());
@@ -216,8 +239,14 @@ int main(int argc, char **argv)
             waitKey(1);
         }
     }
+    } // end try
 
     // finish
+    catch(...)
+    {
+    cout << "catched" << endl;
     cap.release();
+    writer.release();
     return 0;
+    }
 }
